@@ -1,0 +1,3 @@
+﻿Pillow==8.1.0
+requests==2.25.1
+telegram==0.0.1

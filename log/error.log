@@ -1,0 +1,50 @@
+2021-05-06 19:46:23,277 logger_config ERROR: error loading db, defaulting to empty db
+2021-05-06 22:08:11,618 logger_config ERROR: error processing update: {'update_id': 435305324, 'message': {'message_id': 116, 'from': {'id': 304047327, 'is_bot': False, 'first_name': 'Roy Ng', 'username': 'Banila97', 'language_code': 'en'}, 'chat': {'id': 304047327, 'first_name': 'Roy Ng', 'username': 'Banila97', 'type': 'private'}, 'date': 1620310091, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}}
+Traceback (most recent call last):
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 78, in processUpdates
+    self.processMessage(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 21, in processMessage
+    self.command_handler.dispatch(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\command_handler.py", line 29, in dispatch
+    self.help(chatId, command)
+AttributeError: 'CommandHandler' object has no attribute 'help'
+2021-05-06 22:09:39,306 logger_config ERROR: error processing update: {'update_id': 435305326, 'message': {'message_id': 119, 'from': {'id': 304047327, 'is_bot': False, 'first_name': 'Roy Ng', 'username': 'Banila97', 'language_code': 'en'}, 'chat': {'id': 304047327, 'first_name': 'Roy Ng', 'username': 'Banila97', 'type': 'private'}, 'date': 1620310179, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}}
+Traceback (most recent call last):
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 78, in processUpdates
+    self.processMessage(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 21, in processMessage
+    self.command_handler.dispatch(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\command_handler.py", line 29, in dispatch
+    self.help(chatId, command)
+AttributeError: 'CommandHandler' object has no attribute 'help'
+2021-05-06 22:09:46,360 logger_config ERROR: error processing update: {'update_id': 435305327, 'message': {'message_id': 120, 'from': {'id': 304047327, 'is_bot': False, 'first_name': 'Roy Ng', 'username': 'Banila97', 'language_code': 'en'}, 'chat': {'id': 304047327, 'first_name': 'Roy Ng', 'username': 'Banila97', 'type': 'private'}, 'date': 1620310186, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+Traceback (most recent call last):
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 78, in processUpdates
+    self.processMessage(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 21, in processMessage
+    self.command_handler.dispatch(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\command_handler.py", line 29, in dispatch
+    self.help(chatId, command)
+AttributeError: 'CommandHandler' object has no attribute 'help'
+2021-05-06 22:10:23,556 logger_config ERROR: error processing update: {'update_id': 435305329, 'message': {'message_id': 123, 'from': {'id': 304047327, 'is_bot': False, 'first_name': 'Roy Ng', 'username': 'Banila97', 'language_code': 'en'}, 'chat': {'id': 304047327, 'first_name': 'Roy Ng', 'username': 'Banila97', 'type': 'private'}, 'date': 1620310223, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+Traceback (most recent call last):
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 78, in processUpdates
+    self.processMessage(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 21, in processMessage
+    self.command_handler.dispatch(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\command_handler.py", line 29, in dispatch
+    self.help(chatId, command)
+AttributeError: 'CommandHandler' object has no attribute 'help'
+2021-05-06 22:11:46,401 logger_config ERROR: get update request failed
+2021-05-06 22:11:53,732 logger_config ERROR: get update request failed
+2021-05-06 22:11:59,129 logger_config ERROR: get update request failed
+2021-05-06 22:12:04,531 logger_config ERROR: get update request failed
+2021-05-06 22:12:09,929 logger_config ERROR: get update request failed
+2021-05-06 22:12:15,321 logger_config ERROR: get update request failed
+2021-05-06 22:12:33,924 logger_config ERROR: get update request failed
+2021-05-06 22:12:39,378 logger_config ERROR: get update request failed
+2021-05-06 22:12:45,202 logger_config ERROR: get update request failed
+2021-05-06 22:12:50,597 logger_config ERROR: get update request failed
+2021-05-06 22:12:57,634 logger_config ERROR: get update request failed
+2021-05-07 12:47:55,706 logger_config ERROR: no message in update: {'update_id': 435305389, 'edited_message': {'message_id': 230, 'from': {'id': 304047327, 'is_bot': False, 'first_name': 'Roy Ng', 'username': 'Banila97', 'language_code': 'en'}, 'chat': {'id': 304047327, 'first_name': 'Roy Ng', 'username': 'Banila97', 'type': 'private'}, 'date': 1620362858, 'edit_date': 1620362875, 'text': '/price LABS USDT', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}}
+2021-05-07 18:08:14,689 logger_config ERROR: no message in update: {'update_id': 435305408, 'edited_message': {'message_id': 269, 'from': {'id': 304047327, 'is_bot': False, 'first_name': 'Roy Ng', 'username': 'Banila97', 'language_code': 'en'}, 'chat': {'id': 304047327, 'first_name': 'Roy Ng', 'username': 'Banila97', 'type': 'private'}, 'date': 1620382077, 'edit_date': 1620382094, 'text': '/higher XRP 1.63', 'entities': [{'offset': 0, 'length': 7, 'type': 'bot_command'}]}}

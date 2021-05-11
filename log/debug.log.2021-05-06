@@ -1,0 +1,1191 @@
+2021-05-06 19:46:23,198 logger_config DEBUG: logger instance created
+2021-05-06 19:46:23,277 logger_config ERROR: error loading db, defaulting to empty db
+2021-05-06 19:46:23,278 logger_config DEBUG: db at start: {}
+2021-05-06 19:46:31,299 logger_config INFO: handling command "XRP"...
+2021-05-06 19:46:31,300 logger_config DEBUG: sending msg to 304047327 'Unknown command'
+2021-05-06 19:46:34,032 logger_config INFO: handling command "price XRP"...
+2021-05-06 19:46:50,653 logger_config INFO: handling command "help"...
+2021-05-06 19:46:50,654 logger_config INFO: reading help file
+2021-05-06 19:46:50,654 logger_config DEBUG: sending msg to 304047327 'b'**This bot supports following commands**\n\n**/price** \nGet the price for desired coin. *Default coin and currency is BTC and USD respectively.*\n\nExample:  \n\n`/price BTC` \n\n`/price BTC USD` \n\n\n\n**/chart**  \nGet chart for a coin at a timeframe. Possible time frame values are _m, _h, _d, _w, _M where they represent min, hour, day, week and month. *Default time frame is 1h*.\n\nExample:  \n`/chart BTC`  \n`/chart BTC USD`  \n`/chart BTC USD 1w`  \n`/chart BTC USD 1M`\n\n**/top**  \nSee the current prices of the top coins and market cap.\n\n**/lower**  \nGet notified when price of desired coin goes LOWER than specified number.\n\nExample:\n`/lower ETH 3400` (notify me when ETH price goes lower than 3400 USD)  \n`/lower DOGE 0.6 USD`   (notify me when DOGE price goes lower than 0.6 USD)  \n\n**/higher**  \nGet notified when price of desired symbol goes HIGHER than specified number.\n\nExample:s\n`/higher ETH 3800` (notify me when ETH price goes higher than 3800 USD)  \n\n`/higher DOGE 0.69 USD`   (notify me when DOGE price goes higher than 0.69 USD)  \n\n**/alerts**  \nGet the current alerts.\n\n**/clear**  \nClear current alerts.\n\n**/help**  \nSee this message.''
+2021-05-06 19:46:51,221 logger_config WARNING: 'None' return! key: cmd.Help
+2021-05-06 19:47:12,865 logger_config INFO: handling command "help"...
+2021-05-06 19:47:47,286 logger_config INFO: handling command "higher DOGE 0.62"...
+2021-05-06 19:47:47,287 logger_config DEBUG: sending msg to 304047327 'Notification set for Dogecoin above 0.620 USD.'
+2021-05-06 19:47:48,875 logger_config INFO: 304047327 DOGEUSD = 0.6181 target HIGHER 0.62 
+2021-05-06 19:47:59,370 logger_config INFO: 304047327 DOGEUSD = 0.6169 target HIGHER 0.62 
+2021-05-06 19:48:09,945 logger_config INFO: 304047327 DOGEUSD = 0.6169 target HIGHER 0.62 
+2021-05-06 19:48:21,429 logger_config INFO: 304047327 DOGEUSD = 0.617 target HIGHER 0.62 
+2021-05-06 19:48:31,988 logger_config INFO: 304047327 DOGEUSD = 0.6162 target HIGHER 0.62 
+2021-05-06 19:48:43,405 logger_config INFO: 304047327 DOGEUSD = 0.6161 target HIGHER 0.62 
+2021-05-06 19:48:46,924 logger_config INFO: handling command "start"...
+2021-05-06 19:48:46,925 logger_config INFO: 304047327 DOGEUSD = 0.6161 target HIGHER 0.62 
+2021-05-06 19:48:57,395 logger_config INFO: 304047327 DOGEUSD = 0.6157 target HIGHER 0.62 
+2021-05-06 19:49:07,888 logger_config INFO: 304047327 DOGEUSD = 0.6156 target HIGHER 0.62 
+2021-05-06 19:49:18,415 logger_config INFO: 304047327 DOGEUSD = 0.616 target HIGHER 0.62 
+2021-05-06 19:49:29,309 logger_config INFO: 304047327 DOGEUSD = 0.6159 target HIGHER 0.62 
+2021-05-06 19:49:39,813 logger_config INFO: 304047327 DOGEUSD = 0.6161 target HIGHER 0.62 
+2021-05-06 19:49:50,442 logger_config INFO: 304047327 DOGEUSD = 0.6153 target HIGHER 0.62 
+2021-05-06 19:50:00,932 logger_config INFO: 304047327 DOGEUSD = 0.615 target HIGHER 0.62 
+2021-05-06 19:50:12,390 logger_config INFO: 304047327 DOGEUSD = 0.6157 target HIGHER 0.62 
+2021-05-06 19:50:21,267 logger_config INFO: handling command "price"...
+2021-05-06 19:50:22,894 logger_config INFO: 304047327 DOGEUSD = 0.6168 target HIGHER 0.62 
+2021-05-06 19:50:27,167 logger_config INFO: handling command "price SOL"...
+2021-05-06 19:50:28,267 logger_config INFO: 304047327 DOGEUSD = 0.6168 target HIGHER 0.62 
+2021-05-06 19:50:38,727 logger_config INFO: 304047327 DOGEUSD = 0.617 target HIGHER 0.62 
+2021-05-06 19:50:49,198 logger_config INFO: 304047327 DOGEUSD = 0.6173 target HIGHER 0.62 
+2021-05-06 19:50:59,696 logger_config INFO: 304047327 DOGEUSD = 0.6173 target HIGHER 0.62 
+2021-05-06 19:51:03,258 logger_config INFO: handling command "alerts"...
+2021-05-06 19:51:03,258 logger_config DEBUG: sending msg to 531141240 'No alert is set'
+2021-05-06 19:51:04,042 logger_config INFO: 304047327 DOGEUSD = 0.6173 target HIGHER 0.62 
+2021-05-06 19:51:14,501 logger_config INFO: 304047327 DOGEUSD = 0.6173 target HIGHER 0.62 
+2021-05-06 19:51:24,983 logger_config INFO: 304047327 DOGEUSD = 0.6184 target HIGHER 0.62 
+2021-05-06 19:51:35,659 logger_config INFO: 304047327 DOGEUSD = 0.6182 target HIGHER 0.62 
+2021-05-06 19:51:46,223 logger_config INFO: 304047327 DOGEUSD = 0.618 target HIGHER 0.62 
+2021-05-06 19:51:56,903 logger_config INFO: 304047327 DOGEUSD = 0.6178 target HIGHER 0.62 
+2021-05-06 19:52:07,399 logger_config INFO: 304047327 DOGEUSD = 0.6175 target HIGHER 0.62 
+2021-05-06 19:52:17,880 logger_config INFO: 304047327 DOGEUSD = 0.6179 target HIGHER 0.62 
+2021-05-06 19:52:28,407 logger_config INFO: 304047327 DOGEUSD = 0.6182 target HIGHER 0.62 
+2021-05-06 19:52:38,912 logger_config INFO: 304047327 DOGEUSD = 0.6178 target HIGHER 0.62 
+2021-05-06 19:52:49,419 logger_config INFO: 304047327 DOGEUSD = 0.6184 target HIGHER 0.62 
+2021-05-06 19:52:54,693 logger_config INFO: handling command "higher DOGE 0.617 USD"...
+2021-05-06 19:52:54,693 logger_config DEBUG: sending msg to 531141240 'Notification set for Dogecoin above 0.617 USD.'
+2021-05-06 19:52:55,478 logger_config INFO: 304047327 DOGEUSD = 0.6184 target HIGHER 0.62 
+2021-05-06 19:52:55,479 logger_config INFO: 531141240 DOGEUSD = 0.6184 target HIGHER 0.617 
+2021-05-06 19:52:55,481 logger_config DEBUG: sending msg to 531141240 'Dogecoin is above 0.617 at 0.618 USD'
+2021-05-06 19:53:06,803 logger_config INFO: 304047327 DOGEUSD = 0.6168 target HIGHER 0.62 
+2021-05-06 19:53:17,282 logger_config INFO: 304047327 DOGEUSD = 0.6176 target HIGHER 0.62 
+2021-05-06 19:53:27,754 logger_config INFO: 304047327 DOGEUSD = 0.6173 target HIGHER 0.62 
+2021-05-06 19:53:38,237 logger_config INFO: 304047327 DOGEUSD = 0.6171 target HIGHER 0.62 
+2021-05-06 19:53:48,717 logger_config INFO: 304047327 DOGEUSD = 0.618 target HIGHER 0.62 
+2021-05-06 19:53:59,638 logger_config INFO: 304047327 DOGEUSD = 0.6176 target HIGHER 0.62 
+2021-05-06 19:54:10,174 logger_config INFO: 304047327 DOGEUSD = 0.6179 target HIGHER 0.62 
+2021-05-06 19:54:20,666 logger_config INFO: 304047327 DOGEUSD = 0.6176 target HIGHER 0.62 
+2021-05-06 19:54:31,148 logger_config INFO: 304047327 DOGEUSD = 0.6173 target HIGHER 0.62 
+2021-05-06 19:54:41,685 logger_config INFO: 304047327 DOGEUSD = 0.617 target HIGHER 0.62 
+2021-05-06 19:54:52,178 logger_config INFO: 304047327 DOGEUSD = 0.6165 target HIGHER 0.62 
+2021-05-06 19:55:02,681 logger_config INFO: 304047327 DOGEUSD = 0.617 target HIGHER 0.62 
+2021-05-06 19:55:13,470 logger_config INFO: 304047327 DOGEUSD = 0.6167 target HIGHER 0.62 
+2021-05-06 19:55:24,011 logger_config INFO: 304047327 DOGEUSD = 0.616 target HIGHER 0.62 
+2021-05-06 19:55:34,510 logger_config INFO: 304047327 DOGEUSD = 0.6156 target HIGHER 0.62 
+2021-05-06 19:55:45,058 logger_config INFO: 304047327 DOGEUSD = 0.6155 target HIGHER 0.62 
+2021-05-06 21:59:05,119 logger_config DEBUG: logger instance created
+2021-05-06 21:59:05,201 logger_config DEBUG: opened cache db: 7 entries
+2021-05-06 21:59:05,349 logger_config DEBUG: db at start: {'last_update': 435305305, 'alerts': {304047327: {'DOGE': {'HIGHER': {'USD': {0.62}}}}}}
+2021-05-06 21:59:06,093 logger_config INFO: handling command "price SOL"...
+2021-05-06 21:59:06,099 logger_config DEBUG: cache expired for key: market.symbols
+2021-05-06 21:59:16,146 logger_config DEBUG: cache expired for key: market.chart|SOL|USD|15m
+2021-05-06 21:59:18,648 logger_config INFO: 304047327 DOGEUSD = 0.5966 target HIGHER 0.62 
+2021-05-06 21:59:29,264 logger_config INFO: 304047327 DOGEUSD = 0.5967 target HIGHER 0.62 
+2021-05-06 21:59:37,103 logger_config INFO: 304047327 DOGEUSD = 0.5967 target HIGHER 0.62 
+2021-05-06 21:59:47,671 logger_config INFO: 304047327 DOGEUSD = 0.5973 target HIGHER 0.62 
+2021-05-06 21:59:58,316 logger_config INFO: 304047327 DOGEUSD = 0.5978 target HIGHER 0.62 
+2021-05-06 22:00:03,972 logger_config INFO: handling command "clear"...
+2021-05-06 22:00:03,972 logger_config DEBUG: sending msg to 304047327 'Done.'
+2021-05-06 22:00:10,261 logger_config INFO: handling command "price LABS"...
+2021-05-06 22:00:10,261 logger_config DEBUG: sending msg to 304047327 'Invalid symbols LABS USD'
+2021-05-06 22:00:17,553 logger_config INFO: handling command "price CARDS"...
+2021-05-06 22:00:17,553 logger_config DEBUG: sending msg to 304047327 'Invalid symbols CARDS USD'
+2021-05-06 22:00:36,500 logger_config INFO: handling command "price BCYH"...
+2021-05-06 22:00:36,501 logger_config DEBUG: sending msg to 304047327 'Invalid symbols BCYH USD'
+2021-05-06 22:00:40,985 logger_config INFO: handling command "price BCH"...
+2021-05-06 22:01:09,734 logger_config INFO: handling command "price"...
+2021-05-06 22:01:10,049 logger_config DEBUG: cache expired for key: market.chart|BTC|USD|15m
+2021-05-06 22:01:13,450 logger_config INFO: handling command "price CAKE"...
+2021-05-06 22:01:23,761 logger_config INFO: handling command "price SERUM"...
+2021-05-06 22:01:23,762 logger_config DEBUG: sending msg to 304047327 'Invalid symbols SERUM USD'
+2021-05-06 22:01:29,798 logger_config INFO: handling command "price SOL"...
+2021-05-06 22:01:32,551 logger_config DEBUG: cache expired for key: market.chart|SOL|USD|15m
+2021-05-06 22:02:07,931 logger_config INFO: handling command "price AAVE"...
+2021-05-06 22:03:46,695 logger_config INFO: handling command "price LABS"...
+2021-05-06 22:03:46,695 logger_config DEBUG: sending msg to 304047327 'Invalid symbols LABS USD'
+2021-05-06 22:05:23,169 logger_config INFO: handling command "price CARDS"...
+2021-05-06 22:05:23,170 logger_config DEBUG: sending msg to 304047327 'Invalid symbols CARDS USD'
+2021-05-06 22:06:06,036 logger_config INFO: handling command "top"...
+2021-05-06 22:06:06,915 logger_config DEBUG: sending msg to 304047327 '`1: BTC $ 57,300.7 	 $1071.60B
+2: ETH $ 3,488.05 	 $403.79B
+3: XRP $ 1.67 	 $166.98B
+4: BNB $ 644.72 	 $109.24B
+5: DOGE $ 0.5988 	 $77.46B
+6: USDT $ 1.00 	 $53.79B
+7: ADA $ 1.63 	 $52.20B
+8: LINK $ 47.61 	 $47.61B
+9: DOT $ 40.37 	 $43.24B
+10: UNI $ 41.65 	 $41.65B
+11: FLOW $ 30.64 	 $41.52B
+12: XLM $ 0.6458 	 $32.29B
+13: BCH $ 1,385.93 	 $25.96B
+14: LTC $ 343.92 	 $23.25B
+15: SOL $ 43.74 	 $21.63B
+16: FTT $ 58.23 	 $19.08B
+17: VET $ 0.2179 	 $18.74B
+18: GRT $ 1.64 	 $16.53B
+19: LUNA $ 16.70 	 $16.00B
+20: TRX $ 0.1494 	 $15.07B
+21: USDC $ 0.9997 	 $14.43B
+22: ETC $ 114.09 	 $14.49B
+23: AVAX $ 37.19 	 $14.24B
+24: NEO $ 118.76 	 $11.88B
+25: THETA $ 11.02 	 $11.02B
+26: FIL $ 157.20 	 $10.93B
+27: CAKE $ 37.81 	 $10.71B
+28: 1INCH $ 7.11 	 $10.66B
+29: EOS $ 9.73 	 $10.02B
+30: WBTC $ 57,343.5 	 $9.77B
+31: OKB $ 35.77 	 $9.64B
+32: RUNE $ 17.84 	 $8.92B
+33: RSR $ 0.08479 	 $8.48B
+34: ALGO $ 1.53 	 $8.38B
+35: BUSD $ 0.9999 	 $7.93B
+36: MATIC $ 0.7818 	 $7.82B
+37: BSV $ 414.20 	 $7.76B
+38: BTT $ 0.007920 	 $7.84B
+39: COMP $ 760.77 	 $7.61B
+40: XMR $ 423.31 	 $7.58B
+`'
+2021-05-06 22:06:16,746 logger_config INFO: handling command "help"...
+2021-05-06 22:07:17,126 logger_config INFO: handling command "start"...
+2021-05-06 22:08:00,390 logger_config DEBUG: logger instance created
+2021-05-06 22:08:00,410 logger_config DEBUG: opened cache db: 11 entries
+2021-05-06 22:08:00,454 logger_config DEBUG: db at start: {'last_update': 435305322, 'alerts': {}}
+2021-05-06 22:08:07,913 logger_config INFO: handling command "clear"...
+2021-05-06 22:08:07,914 logger_config DEBUG: sending msg to 304047327 'Done.'
+2021-05-06 22:08:11,618 logger_config INFO: handling command "start"...
+2021-05-06 22:08:11,618 logger_config ERROR: error processing update: {'update_id': 435305324, 'message': {'message_id': 116, 'from': {'id': 304047327, 'is_bot': False, 'first_name': 'Roy Ng', 'username': 'Banila97', 'language_code': 'en'}, 'chat': {'id': 304047327, 'first_name': 'Roy Ng', 'username': 'Banila97', 'type': 'private'}, 'date': 1620310091, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}}
+Traceback (most recent call last):
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 78, in processUpdates
+    self.processMessage(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 21, in processMessage
+    self.command_handler.dispatch(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\command_handler.py", line 29, in dispatch
+    self.help(chatId, command)
+AttributeError: 'CommandHandler' object has no attribute 'help'
+2021-05-06 22:09:36,251 logger_config INFO: handling command "clear"...
+2021-05-06 22:09:36,252 logger_config DEBUG: sending msg to 304047327 'Done.'
+2021-05-06 22:09:39,306 logger_config INFO: handling command "start"...
+2021-05-06 22:09:39,306 logger_config ERROR: error processing update: {'update_id': 435305326, 'message': {'message_id': 119, 'from': {'id': 304047327, 'is_bot': False, 'first_name': 'Roy Ng', 'username': 'Banila97', 'language_code': 'en'}, 'chat': {'id': 304047327, 'first_name': 'Roy Ng', 'username': 'Banila97', 'type': 'private'}, 'date': 1620310179, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}}
+Traceback (most recent call last):
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 78, in processUpdates
+    self.processMessage(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 21, in processMessage
+    self.command_handler.dispatch(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\command_handler.py", line 29, in dispatch
+    self.help(chatId, command)
+AttributeError: 'CommandHandler' object has no attribute 'help'
+2021-05-06 22:09:46,359 logger_config INFO: handling command "help"...
+2021-05-06 22:09:46,360 logger_config ERROR: error processing update: {'update_id': 435305327, 'message': {'message_id': 120, 'from': {'id': 304047327, 'is_bot': False, 'first_name': 'Roy Ng', 'username': 'Banila97', 'language_code': 'en'}, 'chat': {'id': 304047327, 'first_name': 'Roy Ng', 'username': 'Banila97', 'type': 'private'}, 'date': 1620310186, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+Traceback (most recent call last):
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 78, in processUpdates
+    self.processMessage(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 21, in processMessage
+    self.command_handler.dispatch(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\command_handler.py", line 29, in dispatch
+    self.help(chatId, command)
+AttributeError: 'CommandHandler' object has no attribute 'help'
+2021-05-06 22:10:19,372 logger_config INFO: handling command "helpo"...
+2021-05-06 22:10:19,373 logger_config DEBUG: sending msg to 304047327 'Unknown command'
+2021-05-06 22:10:23,555 logger_config INFO: handling command "help"...
+2021-05-06 22:10:23,556 logger_config ERROR: error processing update: {'update_id': 435305329, 'message': {'message_id': 123, 'from': {'id': 304047327, 'is_bot': False, 'first_name': 'Roy Ng', 'username': 'Banila97', 'language_code': 'en'}, 'chat': {'id': 304047327, 'first_name': 'Roy Ng', 'username': 'Banila97', 'type': 'private'}, 'date': 1620310223, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+Traceback (most recent call last):
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 78, in processUpdates
+    self.processMessage(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\tg_bot_service.py", line 21, in processMessage
+    self.command_handler.dispatch(message)
+  File "C:\Users\night\Desktop\Crypto Price Alert\command_handler.py", line 29, in dispatch
+    self.help(chatId, command)
+AttributeError: 'CommandHandler' object has no attribute 'help'
+2021-05-06 22:10:30,245 logger_config DEBUG: logger instance created
+2021-05-06 22:10:30,264 logger_config DEBUG: opened cache db: 11 entries
+2021-05-06 22:10:30,302 logger_config DEBUG: db at start: {'last_update': 435305329, 'alerts': {}}
+2021-05-06 22:10:34,095 logger_config INFO: handling command "clear"...
+2021-05-06 22:10:34,096 logger_config DEBUG: sending msg to 304047327 'Done.'
+2021-05-06 22:10:36,555 logger_config INFO: handling command "help"...
+2021-05-06 22:11:46,401 logger_config ERROR: get update request failed
+2021-05-06 22:11:50,730 logger_config INFO: handling command "clear"...
+2021-05-06 22:11:50,731 logger_config DEBUG: sending msg to 304047327 'Done.'
+2021-05-06 22:11:53,732 logger_config ERROR: get update request failed
+2021-05-06 22:11:55,053 logger_config INFO: handling command "help"...
+2021-05-06 22:11:59,129 logger_config ERROR: get update request failed
+2021-05-06 22:12:04,531 logger_config ERROR: get update request failed
+2021-05-06 22:12:09,929 logger_config ERROR: get update request failed
+2021-05-06 22:12:12,351 logger_config INFO: handling command "start"...
+2021-05-06 22:12:15,321 logger_config ERROR: get update request failed
+2021-05-06 22:12:19,328 logger_config INFO: handling command "price XLM"...
+2021-05-06 22:12:33,924 logger_config ERROR: get update request failed
+2021-05-06 22:12:39,378 logger_config ERROR: get update request failed
+2021-05-06 22:12:45,202 logger_config ERROR: get update request failed
+2021-05-06 22:12:50,597 logger_config ERROR: get update request failed
+2021-05-06 22:12:55,553 logger_config INFO: handling command "help"...
+2021-05-06 22:12:57,634 logger_config ERROR: get update request failed
+2021-05-06 22:19:17,383 logger_config DEBUG: logger instance created
+2021-05-06 22:19:17,402 logger_config DEBUG: opened cache db: 12 entries
+2021-05-06 22:19:17,439 logger_config DEBUG: db at start: {'last_update': 435305336, 'alerts': {}}
+2021-05-06 22:19:18,055 logger_config INFO: handling command "clear"...
+2021-05-06 22:19:18,055 logger_config DEBUG: sending msg to 304047327 'Done.'
+2021-05-06 22:20:05,018 logger_config INFO: handling command "start"...
+2021-05-06 22:25:17,721 logger_config DEBUG: logger instance created
+2021-05-06 22:25:17,741 logger_config DEBUG: opened cache db: 12 entries
+2021-05-06 22:25:17,778 logger_config DEBUG: db at start: {'last_update': 435305338, 'alerts': {}}
+2021-05-06 22:25:59,353 logger_config INFO: handling command "start"...
+2021-05-06 22:26:14,429 logger_config INFO: handling command "price DOGE"...
+2021-05-06 22:26:35,928 logger_config INFO: handling command "higher DOGE 0.69"...
+2021-05-06 22:26:35,928 logger_config DEBUG: sending msg to 304047327 'Notification set for Dogecoin above 0.690 USD.'
+2021-05-06 22:26:37,075 logger_config INFO: 304047327 DOGEUSD = 0.6143 target HIGHER 0.69 
+2021-05-06 22:26:48,037 logger_config INFO: 304047327 DOGEUSD = 0.6133 target HIGHER 0.69 
+2021-05-06 22:26:58,610 logger_config INFO: 304047327 DOGEUSD = 0.6133 target HIGHER 0.69 
+2021-05-06 22:27:11,566 logger_config INFO: 304047327 DOGEUSD = 0.6134 target HIGHER 0.69 
+2021-05-06 22:27:22,432 logger_config INFO: 304047327 DOGEUSD = 0.6132 target HIGHER 0.69 
+2021-05-06 22:27:32,961 logger_config INFO: 304047327 DOGEUSD = 0.6132 target HIGHER 0.69 
+2021-05-06 22:27:43,715 logger_config INFO: 304047327 DOGEUSD = 0.6129 target HIGHER 0.69 
+2021-05-06 22:27:54,238 logger_config INFO: 304047327 DOGEUSD = 0.6127 target HIGHER 0.69 
+2021-05-06 22:28:05,938 logger_config INFO: 304047327 DOGEUSD = 0.6121 target HIGHER 0.69 
+2021-05-06 22:28:16,554 logger_config INFO: 304047327 DOGEUSD = 0.6119 target HIGHER 0.69 
+2021-05-06 22:28:27,095 logger_config INFO: 304047327 DOGEUSD = 0.6118 target HIGHER 0.69 
+2021-05-06 22:28:37,631 logger_config INFO: 304047327 DOGEUSD = 0.6108 target HIGHER 0.69 
+2021-05-06 22:28:48,305 logger_config INFO: 304047327 DOGEUSD = 0.6104 target HIGHER 0.69 
+2021-05-06 22:28:55,085 logger_config INFO: handling command "chart DOGE 1M"...
+2021-05-06 22:28:55,085 logger_config WARNING: 'None' return! key: market.chart|DOGE|1M|1h
+2021-05-06 22:28:55,085 logger_config DEBUG: sending msg to 304047327 'no chart for DOGE 1M 1h'
+2021-05-06 22:28:55,908 logger_config INFO: 304047327 DOGEUSD = 0.6104 target HIGHER 0.69 
+2021-05-06 22:29:03,966 logger_config INFO: handling command "chart DOGE 4h"...
+2021-05-06 22:29:03,967 logger_config WARNING: 'None' return! key: market.chart|DOGE|4H|1h
+2021-05-06 22:29:03,968 logger_config DEBUG: sending msg to 304047327 'no chart for DOGE 4H 1h'
+2021-05-06 22:29:05,455 logger_config INFO: 304047327 DOGEUSD = 0.6102 target HIGHER 0.69 
+2021-05-06 22:29:16,015 logger_config INFO: 304047327 DOGEUSD = 0.6116 target HIGHER 0.69 
+2021-05-06 22:29:19,829 logger_config INFO: handling command "chart DOGE"...
+2021-05-06 22:29:20,973 logger_config INFO: 304047327 DOGEUSD = 0.6116 target HIGHER 0.69 
+2021-05-06 22:29:31,488 logger_config INFO: 304047327 DOGEUSD = 0.6095 target HIGHER 0.69 
+2021-05-06 22:29:42,403 logger_config INFO: 304047327 DOGEUSD = 0.6118 target HIGHER 0.69 
+2021-05-06 22:29:52,907 logger_config INFO: 304047327 DOGEUSD = 0.6131 target HIGHER 0.69 
+2021-05-06 22:30:03,515 logger_config INFO: 304047327 DOGEUSD = 0.6128 target HIGHER 0.69 
+2021-05-06 22:30:14,043 logger_config INFO: 304047327 DOGEUSD = 0.6127 target HIGHER 0.69 
+2021-05-06 22:30:24,609 logger_config INFO: 304047327 DOGEUSD = 0.6127 target HIGHER 0.69 
+2021-05-06 22:30:35,192 logger_config INFO: 304047327 DOGEUSD = 0.6118 target HIGHER 0.69 
+2021-05-06 22:30:36,462 logger_config INFO: handling command "chart DOGE USD 1M"...
+2021-05-06 22:30:37,361 logger_config INFO: 304047327 DOGEUSD = 0.6118 target HIGHER 0.69 
+2021-05-06 22:30:49,720 logger_config INFO: 304047327 DOGEUSD = 0.6111 target HIGHER 0.69 
+2021-05-06 22:30:50,926 logger_config INFO: handling command "chart DOGE USD 1d"...
+2021-05-06 22:30:51,865 logger_config INFO: 304047327 DOGEUSD = 0.6111 target HIGHER 0.69 
+2021-05-06 22:31:03,871 logger_config INFO: 304047327 DOGEUSD = 0.6111 target HIGHER 0.69 
+2021-05-06 22:31:11,520 logger_config INFO: handling command "charge DOGE USD 1w"...
+2021-05-06 22:31:12,709 logger_config INFO: 304047327 DOGEUSD = 0.6111 target HIGHER 0.69 
+2021-05-06 22:31:25,278 logger_config INFO: 304047327 DOGEUSD = 0.6109 target HIGHER 0.69 
+2021-05-06 22:31:35,800 logger_config INFO: 304047327 DOGEUSD = 0.6113 target HIGHER 0.69 
+2021-05-06 22:31:46,464 logger_config INFO: 304047327 DOGEUSD = 0.6104 target HIGHER 0.69 
+2021-05-06 22:31:56,991 logger_config INFO: 304047327 DOGEUSD = 0.6098 target HIGHER 0.69 
+2021-05-06 22:32:07,501 logger_config INFO: 304047327 DOGEUSD = 0.6107 target HIGHER 0.69 
+2021-05-06 22:32:18,567 logger_config INFO: 304047327 DOGEUSD = 0.6105 target HIGHER 0.69 
+2021-05-06 22:32:29,203 logger_config INFO: 304047327 DOGEUSD = 0.6088 target HIGHER 0.69 
+2021-05-06 22:32:39,922 logger_config INFO: 304047327 DOGEUSD = 0.6092 target HIGHER 0.69 
+2021-05-06 22:32:50,445 logger_config INFO: 304047327 DOGEUSD = 0.6088 target HIGHER 0.69 
+2021-05-06 22:33:00,982 logger_config INFO: 304047327 DOGEUSD = 0.6074 target HIGHER 0.69 
+2021-05-06 22:33:11,504 logger_config INFO: 304047327 DOGEUSD = 0.6083 target HIGHER 0.69 
+2021-05-06 22:33:22,115 logger_config INFO: 304047327 DOGEUSD = 0.6084 target HIGHER 0.69 
+2021-05-06 22:33:32,664 logger_config INFO: 304047327 DOGEUSD = 0.6079 target HIGHER 0.69 
+2021-05-06 22:33:43,242 logger_config INFO: 304047327 DOGEUSD = 0.6074 target HIGHER 0.69 
+2021-05-06 22:33:54,292 logger_config INFO: 304047327 DOGEUSD = 0.6065 target HIGHER 0.69 
+2021-05-06 22:34:04,810 logger_config INFO: 304047327 DOGEUSD = 0.6064 target HIGHER 0.69 
+2021-05-06 22:34:12,381 logger_config INFO: handling command "chart XRP 15m"...
+2021-05-06 22:34:12,382 logger_config WARNING: 'None' return! key: market.chart|XRP|15M|1h
+2021-05-06 22:34:12,383 logger_config DEBUG: sending msg to 304047327 'no chart for XRP 15M 1h'
+2021-05-06 22:34:13,106 logger_config INFO: 304047327 DOGEUSD = 0.6064 target HIGHER 0.69 
+2021-05-06 22:34:23,667 logger_config INFO: 304047327 DOGEUSD = 0.6076 target HIGHER 0.69 
+2021-05-06 22:34:34,406 logger_config INFO: 304047327 DOGEUSD = 0.6077 target HIGHER 0.69 
+2021-05-06 22:34:44,943 logger_config INFO: 304047327 DOGEUSD = 0.6084 target HIGHER 0.69 
+2021-05-06 22:34:55,479 logger_config INFO: 304047327 DOGEUSD = 0.6073 target HIGHER 0.69 
+2021-05-06 22:35:06,017 logger_config INFO: 304047327 DOGEUSD = 0.6078 target HIGHER 0.69 
+2021-05-06 22:35:16,655 logger_config INFO: 304047327 DOGEUSD = 0.6081 target HIGHER 0.69 
+2021-05-06 22:35:27,191 logger_config INFO: 304047327 DOGEUSD = 0.608 target HIGHER 0.69 
+2021-05-06 22:35:38,504 logger_config INFO: 304047327 DOGEUSD = 0.6081 target HIGHER 0.69 
+2021-05-06 22:35:45,401 logger_config INFO: handling command "chart XRP USD 15m"...
+2021-05-06 22:35:45,402 logger_config DEBUG: cache expired for key: market.chart|XRP|USD|15m
+2021-05-06 22:35:46,684 logger_config INFO: 304047327 DOGEUSD = 0.6081 target HIGHER 0.69 
+2021-05-06 22:35:57,224 logger_config INFO: 304047327 DOGEUSD = 0.6081 target HIGHER 0.69 
+2021-05-06 22:36:07,738 logger_config INFO: 304047327 DOGEUSD = 0.6079 target HIGHER 0.69 
+2021-05-06 22:36:18,274 logger_config INFO: 304047327 DOGEUSD = 0.6084 target HIGHER 0.69 
+2021-05-06 22:36:28,808 logger_config INFO: 304047327 DOGEUSD = 0.6094 target HIGHER 0.69 
+2021-05-06 22:36:39,339 logger_config INFO: 304047327 DOGEUSD = 0.6087 target HIGHER 0.69 
+2021-05-06 22:36:49,872 logger_config INFO: 304047327 DOGEUSD = 0.6086 target HIGHER 0.69 
+2021-05-06 22:37:00,466 logger_config INFO: 304047327 DOGEUSD = 0.6078 target HIGHER 0.69 
+2021-05-06 22:37:10,998 logger_config INFO: 304047327 DOGEUSD = 0.6078 target HIGHER 0.69 
+2021-05-06 22:37:21,498 logger_config INFO: 304047327 DOGEUSD = 0.6081 target HIGHER 0.69 
+2021-05-06 22:37:32,112 logger_config INFO: 304047327 DOGEUSD = 0.6084 target HIGHER 0.69 
+2021-05-06 22:37:42,687 logger_config INFO: 304047327 DOGEUSD = 0.6079 target HIGHER 0.69 
+2021-05-06 22:37:53,228 logger_config INFO: 304047327 DOGEUSD = 0.6074 target HIGHER 0.69 
+2021-05-06 22:38:03,742 logger_config INFO: 304047327 DOGEUSD = 0.6066 target HIGHER 0.69 
+2021-05-06 22:38:14,285 logger_config INFO: 304047327 DOGEUSD = 0.607 target HIGHER 0.69 
+2021-05-06 22:38:24,848 logger_config INFO: 304047327 DOGEUSD = 0.6062 target HIGHER 0.69 
+2021-05-06 22:38:33,736 logger_config INFO: handling command "higher ZIL 0.26"...
+2021-05-06 22:38:33,737 logger_config DEBUG: sending msg to 304047327 'Notification set for Zilliqa above 0.260 USD.'
+2021-05-06 22:38:34,508 logger_config INFO: 304047327 DOGEUSD = 0.6062 target HIGHER 0.69 
+2021-05-06 22:38:34,509 logger_config INFO: 304047327 ZILUSD = 0.2449 target HIGHER 0.26 
+2021-05-06 22:38:45,655 logger_config INFO: 304047327 DOGEUSD = 0.6061 target HIGHER 0.69 
+2021-05-06 22:38:45,656 logger_config INFO: 304047327 ZILUSD = 0.2449 target HIGHER 0.26 
+2021-05-06 22:38:57,565 logger_config INFO: 304047327 DOGEUSD = 0.6066 target HIGHER 0.69 
+2021-05-06 22:38:57,565 logger_config INFO: 304047327 ZILUSD = 0.2449 target HIGHER 0.26 
+2021-05-06 22:39:08,094 logger_config INFO: 304047327 DOGEUSD = 0.6062 target HIGHER 0.69 
+2021-05-06 22:39:08,095 logger_config INFO: 304047327 ZILUSD = 0.2449 target HIGHER 0.26 
+2021-05-06 22:39:18,607 logger_config INFO: 304047327 DOGEUSD = 0.606 target HIGHER 0.69 
+2021-05-06 22:39:18,607 logger_config INFO: 304047327 ZILUSD = 0.245 target HIGHER 0.26 
+2021-05-06 22:39:29,169 logger_config INFO: 304047327 DOGEUSD = 0.6066 target HIGHER 0.69 
+2021-05-06 22:39:29,169 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 22:39:39,863 logger_config INFO: 304047327 DOGEUSD = 0.607 target HIGHER 0.69 
+2021-05-06 22:39:39,864 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 22:39:52,128 logger_config INFO: 304047327 DOGEUSD = 0.607 target HIGHER 0.69 
+2021-05-06 22:39:52,128 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 22:40:02,651 logger_config INFO: 304047327 DOGEUSD = 0.607 target HIGHER 0.69 
+2021-05-06 22:40:02,651 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 22:40:14,908 logger_config INFO: 304047327 DOGEUSD = 0.6067 target HIGHER 0.69 
+2021-05-06 22:40:14,909 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 22:40:25,574 logger_config INFO: 304047327 DOGEUSD = 0.6068 target HIGHER 0.69 
+2021-05-06 22:40:25,574 logger_config INFO: 304047327 ZILUSD = 0.245 target HIGHER 0.26 
+2021-05-06 22:40:36,141 logger_config INFO: 304047327 DOGEUSD = 0.607 target HIGHER 0.69 
+2021-05-06 22:40:36,141 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 22:40:46,831 logger_config INFO: 304047327 DOGEUSD = 0.6077 target HIGHER 0.69 
+2021-05-06 22:40:46,831 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 22:40:57,770 logger_config INFO: 304047327 DOGEUSD = 0.6068 target HIGHER 0.69 
+2021-05-06 22:40:57,770 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 22:41:08,329 logger_config INFO: 304047327 DOGEUSD = 0.6071 target HIGHER 0.69 
+2021-05-06 22:41:08,330 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 22:41:18,927 logger_config INFO: 304047327 DOGEUSD = 0.6067 target HIGHER 0.69 
+2021-05-06 22:41:18,928 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 22:41:31,762 logger_config INFO: 304047327 DOGEUSD = 0.6069 target HIGHER 0.69 
+2021-05-06 22:41:31,762 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 22:41:43,926 logger_config INFO: 304047327 DOGEUSD = 0.6065 target HIGHER 0.69 
+2021-05-06 22:41:43,926 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 22:41:54,460 logger_config INFO: 304047327 DOGEUSD = 0.6074 target HIGHER 0.69 
+2021-05-06 22:41:54,461 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 22:42:05,069 logger_config INFO: 304047327 DOGEUSD = 0.607 target HIGHER 0.69 
+2021-05-06 22:42:05,070 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 22:42:15,602 logger_config INFO: 304047327 DOGEUSD = 0.6071 target HIGHER 0.69 
+2021-05-06 22:42:15,602 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 22:42:26,347 logger_config INFO: 304047327 DOGEUSD = 0.608 target HIGHER 0.69 
+2021-05-06 22:42:26,347 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 22:42:36,878 logger_config INFO: 304047327 DOGEUSD = 0.6077 target HIGHER 0.69 
+2021-05-06 22:42:36,878 logger_config INFO: 304047327 ZILUSD = 0.2452 target HIGHER 0.26 
+2021-05-06 22:42:47,418 logger_config INFO: 304047327 DOGEUSD = 0.6089 target HIGHER 0.69 
+2021-05-06 22:42:47,418 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 22:42:57,956 logger_config INFO: 304047327 DOGEUSD = 0.6089 target HIGHER 0.69 
+2021-05-06 22:42:57,956 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 22:43:08,487 logger_config INFO: 304047327 DOGEUSD = 0.6086 target HIGHER 0.69 
+2021-05-06 22:43:08,487 logger_config INFO: 304047327 ZILUSD = 0.245 target HIGHER 0.26 
+2021-05-06 22:43:21,215 logger_config INFO: 304047327 DOGEUSD = 0.6091 target HIGHER 0.69 
+2021-05-06 22:43:21,216 logger_config INFO: 304047327 ZILUSD = 0.245 target HIGHER 0.26 
+2021-05-06 22:43:31,742 logger_config INFO: 304047327 DOGEUSD = 0.6091 target HIGHER 0.69 
+2021-05-06 22:43:31,743 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 22:43:42,252 logger_config INFO: 304047327 DOGEUSD = 0.6091 target HIGHER 0.69 
+2021-05-06 22:43:42,253 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 22:43:52,786 logger_config INFO: 304047327 DOGEUSD = 0.6087 target HIGHER 0.69 
+2021-05-06 22:43:52,787 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 22:44:07,420 logger_config INFO: 304047327 DOGEUSD = 0.6094 target HIGHER 0.69 
+2021-05-06 22:44:07,421 logger_config INFO: 304047327 ZILUSD = 0.2449 target HIGHER 0.26 
+2021-05-06 22:44:18,033 logger_config INFO: 304047327 DOGEUSD = 0.6094 target HIGHER 0.69 
+2021-05-06 22:44:18,034 logger_config INFO: 304047327 ZILUSD = 0.2449 target HIGHER 0.26 
+2021-05-06 22:44:28,800 logger_config INFO: 304047327 DOGEUSD = 0.6096 target HIGHER 0.69 
+2021-05-06 22:44:28,801 logger_config INFO: 304047327 ZILUSD = 0.2452 target HIGHER 0.26 
+2021-05-06 22:44:39,387 logger_config INFO: 304047327 DOGEUSD = 0.6101 target HIGHER 0.69 
+2021-05-06 22:44:39,388 logger_config INFO: 304047327 ZILUSD = 0.2452 target HIGHER 0.26 
+2021-05-06 22:44:49,942 logger_config INFO: 304047327 DOGEUSD = 0.6108 target HIGHER 0.69 
+2021-05-06 22:44:49,942 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 22:45:00,642 logger_config INFO: 304047327 DOGEUSD = 0.6126 target HIGHER 0.69 
+2021-05-06 22:45:00,642 logger_config INFO: 304047327 ZILUSD = 0.2449 target HIGHER 0.26 
+2021-05-06 22:45:11,170 logger_config INFO: 304047327 DOGEUSD = 0.6133 target HIGHER 0.69 
+2021-05-06 22:45:11,171 logger_config INFO: 304047327 ZILUSD = 0.2449 target HIGHER 0.26 
+2021-05-06 22:45:24,193 logger_config INFO: 304047327 DOGEUSD = 0.6141 target HIGHER 0.69 
+2021-05-06 22:45:24,194 logger_config INFO: 304047327 ZILUSD = 0.245 target HIGHER 0.26 
+2021-05-06 22:45:34,709 logger_config INFO: 304047327 DOGEUSD = 0.6151 target HIGHER 0.69 
+2021-05-06 22:45:34,709 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 22:45:45,388 logger_config INFO: 304047327 DOGEUSD = 0.615 target HIGHER 0.69 
+2021-05-06 22:45:45,388 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 22:45:55,916 logger_config INFO: 304047327 DOGEUSD = 0.6149 target HIGHER 0.69 
+2021-05-06 22:45:55,916 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 22:46:06,421 logger_config INFO: 304047327 DOGEUSD = 0.6148 target HIGHER 0.69 
+2021-05-06 22:46:06,422 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 22:46:16,936 logger_config INFO: 304047327 DOGEUSD = 0.6131 target HIGHER 0.69 
+2021-05-06 22:46:16,937 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 22:46:27,476 logger_config INFO: 304047327 DOGEUSD = 0.6126 target HIGHER 0.69 
+2021-05-06 22:46:27,476 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 22:46:37,994 logger_config INFO: 304047327 DOGEUSD = 0.6118 target HIGHER 0.69 
+2021-05-06 22:46:37,996 logger_config INFO: 304047327 ZILUSD = 0.2438 target HIGHER 0.26 
+2021-05-06 22:46:48,495 logger_config INFO: 304047327 DOGEUSD = 0.6104 target HIGHER 0.69 
+2021-05-06 22:46:48,495 logger_config INFO: 304047327 ZILUSD = 0.2438 target HIGHER 0.26 
+2021-05-06 22:46:59,032 logger_config INFO: 304047327 DOGEUSD = 0.6114 target HIGHER 0.69 
+2021-05-06 22:46:59,032 logger_config INFO: 304047327 ZILUSD = 0.2436 target HIGHER 0.26 
+2021-05-06 22:47:11,444 logger_config INFO: 304047327 DOGEUSD = 0.6121 target HIGHER 0.69 
+2021-05-06 22:47:11,448 logger_config INFO: 304047327 ZILUSD = 0.2436 target HIGHER 0.26 
+2021-05-06 22:47:21,987 logger_config INFO: 304047327 DOGEUSD = 0.6124 target HIGHER 0.69 
+2021-05-06 22:47:21,987 logger_config INFO: 304047327 ZILUSD = 0.2438 target HIGHER 0.26 
+2021-05-06 22:47:34,772 logger_config INFO: 304047327 DOGEUSD = 0.6124 target HIGHER 0.69 
+2021-05-06 22:47:34,773 logger_config INFO: 304047327 ZILUSD = 0.2437 target HIGHER 0.26 
+2021-05-06 22:47:45,280 logger_config INFO: 304047327 DOGEUSD = 0.6121 target HIGHER 0.69 
+2021-05-06 22:47:45,280 logger_config INFO: 304047327 ZILUSD = 0.2437 target HIGHER 0.26 
+2021-05-06 22:47:58,379 logger_config INFO: 304047327 DOGEUSD = 0.6114 target HIGHER 0.69 
+2021-05-06 22:47:58,379 logger_config INFO: 304047327 ZILUSD = 0.2436 target HIGHER 0.26 
+2021-05-06 22:48:08,921 logger_config INFO: 304047327 DOGEUSD = 0.611 target HIGHER 0.69 
+2021-05-06 22:48:08,921 logger_config INFO: 304047327 ZILUSD = 0.2436 target HIGHER 0.26 
+2021-05-06 22:48:22,611 logger_config INFO: 304047327 DOGEUSD = 0.6115 target HIGHER 0.69 
+2021-05-06 22:48:22,612 logger_config INFO: 304047327 ZILUSD = 0.2435 target HIGHER 0.26 
+2021-05-06 22:48:33,144 logger_config INFO: 304047327 DOGEUSD = 0.6116 target HIGHER 0.69 
+2021-05-06 22:48:33,145 logger_config INFO: 304047327 ZILUSD = 0.2433 target HIGHER 0.26 
+2021-05-06 22:48:45,545 logger_config INFO: 304047327 DOGEUSD = 0.6113 target HIGHER 0.69 
+2021-05-06 22:48:45,545 logger_config INFO: 304047327 ZILUSD = 0.2434 target HIGHER 0.26 
+2021-05-06 22:48:56,058 logger_config INFO: 304047327 DOGEUSD = 0.6109 target HIGHER 0.69 
+2021-05-06 22:48:56,059 logger_config INFO: 304047327 ZILUSD = 0.2433 target HIGHER 0.26 
+2021-05-06 22:49:06,552 logger_config INFO: 304047327 DOGEUSD = 0.6111 target HIGHER 0.69 
+2021-05-06 22:49:06,553 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 22:49:17,075 logger_config INFO: 304047327 DOGEUSD = 0.6113 target HIGHER 0.69 
+2021-05-06 22:49:17,076 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 22:49:27,635 logger_config INFO: 304047327 DOGEUSD = 0.6107 target HIGHER 0.69 
+2021-05-06 22:49:27,636 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 22:49:38,253 logger_config INFO: 304047327 DOGEUSD = 0.6103 target HIGHER 0.69 
+2021-05-06 22:49:38,258 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 22:49:49,079 logger_config INFO: 304047327 DOGEUSD = 0.6102 target HIGHER 0.69 
+2021-05-06 22:49:49,080 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 22:49:59,629 logger_config INFO: 304047327 DOGEUSD = 0.6106 target HIGHER 0.69 
+2021-05-06 22:49:59,629 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 22:50:10,143 logger_config INFO: 304047327 DOGEUSD = 0.6113 target HIGHER 0.69 
+2021-05-06 22:50:10,143 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 22:50:20,678 logger_config INFO: 304047327 DOGEUSD = 0.6117 target HIGHER 0.69 
+2021-05-06 22:50:20,678 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 22:50:32,868 logger_config INFO: 304047327 DOGEUSD = 0.6113 target HIGHER 0.69 
+2021-05-06 22:50:32,868 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 22:50:43,532 logger_config INFO: 304047327 DOGEUSD = 0.6114 target HIGHER 0.69 
+2021-05-06 22:50:43,532 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 22:50:54,032 logger_config INFO: 304047327 DOGEUSD = 0.6118 target HIGHER 0.69 
+2021-05-06 22:50:54,032 logger_config INFO: 304047327 ZILUSD = 0.2427 target HIGHER 0.26 
+2021-05-06 22:51:04,532 logger_config INFO: 304047327 DOGEUSD = 0.6109 target HIGHER 0.69 
+2021-05-06 22:51:04,532 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 22:51:15,081 logger_config INFO: 304047327 DOGEUSD = 0.6101 target HIGHER 0.69 
+2021-05-06 22:51:15,081 logger_config INFO: 304047327 ZILUSD = 0.2427 target HIGHER 0.26 
+2021-05-06 22:51:25,572 logger_config INFO: 304047327 DOGEUSD = 0.6107 target HIGHER 0.69 
+2021-05-06 22:51:25,572 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 22:51:36,163 logger_config INFO: 304047327 DOGEUSD = 0.6108 target HIGHER 0.69 
+2021-05-06 22:51:36,172 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 22:51:46,664 logger_config INFO: 304047327 DOGEUSD = 0.6113 target HIGHER 0.69 
+2021-05-06 22:51:46,665 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 22:51:57,193 logger_config INFO: 304047327 DOGEUSD = 0.6107 target HIGHER 0.69 
+2021-05-06 22:51:57,194 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 22:52:07,813 logger_config INFO: 304047327 DOGEUSD = 0.6109 target HIGHER 0.69 
+2021-05-06 22:52:07,813 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 22:52:19,945 logger_config INFO: 304047327 DOGEUSD = 0.6106 target HIGHER 0.69 
+2021-05-06 22:52:19,945 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 22:52:30,563 logger_config INFO: 304047327 DOGEUSD = 0.6105 target HIGHER 0.69 
+2021-05-06 22:52:30,563 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 22:52:41,194 logger_config INFO: 304047327 DOGEUSD = 0.6105 target HIGHER 0.69 
+2021-05-06 22:52:41,195 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 22:52:51,703 logger_config INFO: 304047327 DOGEUSD = 0.6105 target HIGHER 0.69 
+2021-05-06 22:52:51,703 logger_config INFO: 304047327 ZILUSD = 0.2427 target HIGHER 0.26 
+2021-05-06 22:53:02,240 logger_config INFO: 304047327 DOGEUSD = 0.611 target HIGHER 0.69 
+2021-05-06 22:53:02,240 logger_config INFO: 304047327 ZILUSD = 0.2429 target HIGHER 0.26 
+2021-05-06 22:53:12,723 logger_config INFO: 304047327 DOGEUSD = 0.6104 target HIGHER 0.69 
+2021-05-06 22:53:12,723 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 22:53:23,227 logger_config INFO: 304047327 DOGEUSD = 0.6088 target HIGHER 0.69 
+2021-05-06 22:53:23,228 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 22:53:33,772 logger_config INFO: 304047327 DOGEUSD = 0.6081 target HIGHER 0.69 
+2021-05-06 22:53:33,772 logger_config INFO: 304047327 ZILUSD = 0.2427 target HIGHER 0.26 
+2021-05-06 22:53:44,263 logger_config INFO: 304047327 DOGEUSD = 0.6087 target HIGHER 0.69 
+2021-05-06 22:53:44,263 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 22:53:54,763 logger_config INFO: 304047327 DOGEUSD = 0.6088 target HIGHER 0.69 
+2021-05-06 22:53:54,763 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 22:54:05,293 logger_config INFO: 304047327 DOGEUSD = 0.6086 target HIGHER 0.69 
+2021-05-06 22:54:05,293 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 22:54:15,983 logger_config INFO: 304047327 DOGEUSD = 0.6088 target HIGHER 0.69 
+2021-05-06 22:54:15,983 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 22:54:26,642 logger_config INFO: 304047327 DOGEUSD = 0.6088 target HIGHER 0.69 
+2021-05-06 22:54:26,642 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 22:54:37,264 logger_config INFO: 304047327 DOGEUSD = 0.609 target HIGHER 0.69 
+2021-05-06 22:54:37,264 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 22:54:47,758 logger_config INFO: 304047327 DOGEUSD = 0.6098 target HIGHER 0.69 
+2021-05-06 22:54:47,758 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 22:54:58,268 logger_config INFO: 304047327 DOGEUSD = 0.6094 target HIGHER 0.69 
+2021-05-06 22:54:58,268 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 22:55:08,769 logger_config INFO: 304047327 DOGEUSD = 0.6101 target HIGHER 0.69 
+2021-05-06 22:55:08,770 logger_config INFO: 304047327 ZILUSD = 0.2429 target HIGHER 0.26 
+2021-05-06 22:55:19,313 logger_config INFO: 304047327 DOGEUSD = 0.6098 target HIGHER 0.69 
+2021-05-06 22:55:19,313 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 22:55:30,113 logger_config INFO: 304047327 DOGEUSD = 0.6098 target HIGHER 0.69 
+2021-05-06 22:55:30,116 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 22:55:42,832 logger_config INFO: 304047327 DOGEUSD = 0.6102 target HIGHER 0.69 
+2021-05-06 22:55:42,832 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 22:55:53,732 logger_config INFO: 304047327 DOGEUSD = 0.6098 target HIGHER 0.69 
+2021-05-06 22:55:53,732 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 22:56:04,262 logger_config INFO: 304047327 DOGEUSD = 0.6097 target HIGHER 0.69 
+2021-05-06 22:56:04,262 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 22:56:14,766 logger_config INFO: 304047327 DOGEUSD = 0.6107 target HIGHER 0.69 
+2021-05-06 22:56:14,766 logger_config INFO: 304047327 ZILUSD = 0.2433 target HIGHER 0.26 
+2021-05-06 22:56:25,325 logger_config INFO: 304047327 DOGEUSD = 0.6105 target HIGHER 0.69 
+2021-05-06 22:56:25,325 logger_config INFO: 304047327 ZILUSD = 0.2435 target HIGHER 0.26 
+2021-05-06 22:56:35,926 logger_config INFO: 304047327 DOGEUSD = 0.6102 target HIGHER 0.69 
+2021-05-06 22:56:35,926 logger_config INFO: 304047327 ZILUSD = 0.2434 target HIGHER 0.26 
+2021-05-06 22:56:46,773 logger_config INFO: 304047327 DOGEUSD = 0.6104 target HIGHER 0.69 
+2021-05-06 22:56:46,773 logger_config INFO: 304047327 ZILUSD = 0.2433 target HIGHER 0.26 
+2021-05-06 22:56:57,799 logger_config INFO: 304047327 DOGEUSD = 0.6111 target HIGHER 0.69 
+2021-05-06 22:56:57,799 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 22:57:08,544 logger_config INFO: 304047327 DOGEUSD = 0.6111 target HIGHER 0.69 
+2021-05-06 22:57:08,544 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 22:57:19,081 logger_config INFO: 304047327 DOGEUSD = 0.6106 target HIGHER 0.69 
+2021-05-06 22:57:19,081 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 22:57:29,620 logger_config INFO: 304047327 DOGEUSD = 0.6106 target HIGHER 0.69 
+2021-05-06 22:57:29,620 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 22:57:40,161 logger_config INFO: 304047327 DOGEUSD = 0.6098 target HIGHER 0.69 
+2021-05-06 22:57:40,161 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 22:57:50,697 logger_config INFO: 304047327 DOGEUSD = 0.6097 target HIGHER 0.69 
+2021-05-06 22:57:50,700 logger_config INFO: 304047327 ZILUSD = 0.2429 target HIGHER 0.26 
+2021-05-06 22:58:01,205 logger_config INFO: 304047327 DOGEUSD = 0.6092 target HIGHER 0.69 
+2021-05-06 22:58:01,205 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 22:58:11,716 logger_config INFO: 304047327 DOGEUSD = 0.609 target HIGHER 0.69 
+2021-05-06 22:58:11,716 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 22:58:22,825 logger_config INFO: 304047327 DOGEUSD = 0.6087 target HIGHER 0.69 
+2021-05-06 22:58:22,825 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 22:58:33,516 logger_config INFO: 304047327 DOGEUSD = 0.6098 target HIGHER 0.69 
+2021-05-06 22:58:33,516 logger_config INFO: 304047327 ZILUSD = 0.2427 target HIGHER 0.26 
+2021-05-06 22:58:44,009 logger_config INFO: 304047327 DOGEUSD = 0.6106 target HIGHER 0.69 
+2021-05-06 22:58:44,009 logger_config INFO: 304047327 ZILUSD = 0.2427 target HIGHER 0.26 
+2021-05-06 22:58:57,111 logger_config INFO: 304047327 DOGEUSD = 0.6104 target HIGHER 0.69 
+2021-05-06 22:58:57,111 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 22:59:08,320 logger_config INFO: 304047327 DOGEUSD = 0.6105 target HIGHER 0.69 
+2021-05-06 22:59:08,320 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 22:59:18,520 logger_config DEBUG: cache expired for key: market.symbols
+2021-05-06 22:59:26,024 logger_config INFO: 304047327 DOGEUSD = 0.6103 target HIGHER 0.69 
+2021-05-06 22:59:26,024 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 22:59:36,537 logger_config INFO: 304047327 DOGEUSD = 0.6101 target HIGHER 0.69 
+2021-05-06 22:59:36,537 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 22:59:47,411 logger_config INFO: 304047327 DOGEUSD = 0.6101 target HIGHER 0.69 
+2021-05-06 22:59:47,411 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 22:59:57,912 logger_config INFO: 304047327 DOGEUSD = 0.61 target HIGHER 0.69 
+2021-05-06 22:59:57,913 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 23:00:08,461 logger_config INFO: 304047327 DOGEUSD = 0.6104 target HIGHER 0.69 
+2021-05-06 23:00:08,461 logger_config INFO: 304047327 ZILUSD = 0.2433 target HIGHER 0.26 
+2021-05-06 23:00:19,050 logger_config INFO: 304047327 DOGEUSD = 0.6111 target HIGHER 0.69 
+2021-05-06 23:00:19,050 logger_config INFO: 304047327 ZILUSD = 0.2435 target HIGHER 0.26 
+2021-05-06 23:00:29,707 logger_config INFO: 304047327 DOGEUSD = 0.6116 target HIGHER 0.69 
+2021-05-06 23:00:29,707 logger_config INFO: 304047327 ZILUSD = 0.2439 target HIGHER 0.26 
+2021-05-06 23:00:42,484 logger_config INFO: 304047327 DOGEUSD = 0.6121 target HIGHER 0.69 
+2021-05-06 23:00:42,490 logger_config INFO: 304047327 ZILUSD = 0.2439 target HIGHER 0.26 
+2021-05-06 23:00:53,010 logger_config INFO: 304047327 DOGEUSD = 0.6122 target HIGHER 0.69 
+2021-05-06 23:00:53,010 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:01:03,490 logger_config INFO: 304047327 DOGEUSD = 0.6125 target HIGHER 0.69 
+2021-05-06 23:01:03,490 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:01:14,006 logger_config INFO: 304047327 DOGEUSD = 0.6125 target HIGHER 0.69 
+2021-05-06 23:01:14,007 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:01:24,540 logger_config INFO: 304047327 DOGEUSD = 0.6125 target HIGHER 0.69 
+2021-05-06 23:01:24,540 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:01:35,082 logger_config INFO: 304047327 DOGEUSD = 0.6119 target HIGHER 0.69 
+2021-05-06 23:01:35,083 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:01:46,258 logger_config INFO: 304047327 DOGEUSD = 0.6111 target HIGHER 0.69 
+2021-05-06 23:01:46,258 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:01:56,780 logger_config INFO: 304047327 DOGEUSD = 0.6093 target HIGHER 0.69 
+2021-05-06 23:01:56,780 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:02:07,413 logger_config INFO: 304047327 DOGEUSD = 0.6094 target HIGHER 0.69 
+2021-05-06 23:02:07,413 logger_config INFO: 304047327 ZILUSD = 0.2434 target HIGHER 0.26 
+2021-05-06 23:02:17,982 logger_config INFO: 304047327 DOGEUSD = 0.6082 target HIGHER 0.69 
+2021-05-06 23:02:17,982 logger_config INFO: 304047327 ZILUSD = 0.2433 target HIGHER 0.26 
+2021-05-06 23:02:28,731 logger_config INFO: 304047327 DOGEUSD = 0.6091 target HIGHER 0.69 
+2021-05-06 23:02:28,732 logger_config INFO: 304047327 ZILUSD = 0.2433 target HIGHER 0.26 
+2021-05-06 23:02:39,241 logger_config INFO: 304047327 DOGEUSD = 0.6092 target HIGHER 0.69 
+2021-05-06 23:02:39,241 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 23:02:49,905 logger_config INFO: 304047327 DOGEUSD = 0.6085 target HIGHER 0.69 
+2021-05-06 23:02:49,905 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:03:00,460 logger_config INFO: 304047327 DOGEUSD = 0.6097 target HIGHER 0.69 
+2021-05-06 23:03:00,460 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:03:15,183 logger_config INFO: 304047327 DOGEUSD = 0.6092 target HIGHER 0.69 
+2021-05-06 23:03:15,183 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:03:25,710 logger_config INFO: 304047327 DOGEUSD = 0.6088 target HIGHER 0.69 
+2021-05-06 23:03:25,711 logger_config INFO: 304047327 ZILUSD = 0.2429 target HIGHER 0.26 
+2021-05-06 23:03:36,313 logger_config INFO: 304047327 DOGEUSD = 0.6087 target HIGHER 0.69 
+2021-05-06 23:03:36,314 logger_config INFO: 304047327 ZILUSD = 0.2429 target HIGHER 0.26 
+2021-05-06 23:03:46,934 logger_config INFO: 304047327 DOGEUSD = 0.6081 target HIGHER 0.69 
+2021-05-06 23:03:46,935 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 23:03:57,544 logger_config INFO: 304047327 DOGEUSD = 0.6083 target HIGHER 0.69 
+2021-05-06 23:03:57,544 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 23:04:08,168 logger_config INFO: 304047327 DOGEUSD = 0.6079 target HIGHER 0.69 
+2021-05-06 23:04:08,168 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 23:04:18,772 logger_config INFO: 304047327 DOGEUSD = 0.6078 target HIGHER 0.69 
+2021-05-06 23:04:18,772 logger_config INFO: 304047327 ZILUSD = 0.2424 target HIGHER 0.26 
+2021-05-06 23:04:29,252 logger_config INFO: 304047327 DOGEUSD = 0.6065 target HIGHER 0.69 
+2021-05-06 23:04:29,253 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 23:04:41,627 logger_config INFO: 304047327 DOGEUSD = 0.6064 target HIGHER 0.69 
+2021-05-06 23:04:41,627 logger_config INFO: 304047327 ZILUSD = 0.2425 target HIGHER 0.26 
+2021-05-06 23:04:52,134 logger_config INFO: 304047327 DOGEUSD = 0.6071 target HIGHER 0.69 
+2021-05-06 23:04:52,134 logger_config INFO: 304047327 ZILUSD = 0.2424 target HIGHER 0.26 
+2021-05-06 23:05:02,823 logger_config INFO: 304047327 DOGEUSD = 0.6075 target HIGHER 0.69 
+2021-05-06 23:05:02,823 logger_config INFO: 304047327 ZILUSD = 0.2421 target HIGHER 0.26 
+2021-05-06 23:05:13,853 logger_config INFO: 304047327 DOGEUSD = 0.6064 target HIGHER 0.69 
+2021-05-06 23:05:13,853 logger_config INFO: 304047327 ZILUSD = 0.242 target HIGHER 0.26 
+2021-05-06 23:05:25,879 logger_config INFO: 304047327 DOGEUSD = 0.6064 target HIGHER 0.69 
+2021-05-06 23:05:25,879 logger_config INFO: 304047327 ZILUSD = 0.2421 target HIGHER 0.26 
+2021-05-06 23:05:38,105 logger_config INFO: 304047327 DOGEUSD = 0.6054 target HIGHER 0.69 
+2021-05-06 23:05:38,105 logger_config INFO: 304047327 ZILUSD = 0.2421 target HIGHER 0.26 
+2021-05-06 23:05:48,663 logger_config INFO: 304047327 DOGEUSD = 0.6059 target HIGHER 0.69 
+2021-05-06 23:05:48,663 logger_config INFO: 304047327 ZILUSD = 0.2421 target HIGHER 0.26 
+2021-05-06 23:05:59,224 logger_config INFO: 304047327 DOGEUSD = 0.6053 target HIGHER 0.69 
+2021-05-06 23:05:59,224 logger_config INFO: 304047327 ZILUSD = 0.2419 target HIGHER 0.26 
+2021-05-06 23:06:10,889 logger_config INFO: 304047327 DOGEUSD = 0.6068 target HIGHER 0.69 
+2021-05-06 23:06:10,890 logger_config INFO: 304047327 ZILUSD = 0.2419 target HIGHER 0.26 
+2021-05-06 23:06:21,720 logger_config INFO: 304047327 DOGEUSD = 0.6058 target HIGHER 0.69 
+2021-05-06 23:06:21,720 logger_config INFO: 304047327 ZILUSD = 0.2419 target HIGHER 0.26 
+2021-05-06 23:06:32,297 logger_config INFO: 304047327 DOGEUSD = 0.6055 target HIGHER 0.69 
+2021-05-06 23:06:32,298 logger_config INFO: 304047327 ZILUSD = 0.2419 target HIGHER 0.26 
+2021-05-06 23:06:42,821 logger_config INFO: 304047327 DOGEUSD = 0.6055 target HIGHER 0.69 
+2021-05-06 23:06:42,821 logger_config INFO: 304047327 ZILUSD = 0.2419 target HIGHER 0.26 
+2021-05-06 23:06:53,351 logger_config INFO: 304047327 DOGEUSD = 0.6056 target HIGHER 0.69 
+2021-05-06 23:06:53,351 logger_config INFO: 304047327 ZILUSD = 0.2421 target HIGHER 0.26 
+2021-05-06 23:07:04,680 logger_config INFO: 304047327 DOGEUSD = 0.6058 target HIGHER 0.69 
+2021-05-06 23:07:04,681 logger_config INFO: 304047327 ZILUSD = 0.2421 target HIGHER 0.26 
+2021-05-06 23:07:15,201 logger_config INFO: 304047327 DOGEUSD = 0.6064 target HIGHER 0.69 
+2021-05-06 23:07:15,202 logger_config INFO: 304047327 ZILUSD = 0.2422 target HIGHER 0.26 
+2021-05-06 23:07:25,865 logger_config INFO: 304047327 DOGEUSD = 0.6065 target HIGHER 0.69 
+2021-05-06 23:07:25,865 logger_config INFO: 304047327 ZILUSD = 0.2427 target HIGHER 0.26 
+2021-05-06 23:07:36,365 logger_config INFO: 304047327 DOGEUSD = 0.6076 target HIGHER 0.69 
+2021-05-06 23:07:36,366 logger_config INFO: 304047327 ZILUSD = 0.2429 target HIGHER 0.26 
+2021-05-06 23:07:47,391 logger_config INFO: 304047327 DOGEUSD = 0.6069 target HIGHER 0.69 
+2021-05-06 23:07:47,391 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 23:07:57,946 logger_config INFO: 304047327 DOGEUSD = 0.607 target HIGHER 0.69 
+2021-05-06 23:07:57,947 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:08:08,633 logger_config INFO: 304047327 DOGEUSD = 0.6066 target HIGHER 0.69 
+2021-05-06 23:08:08,634 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:08:19,188 logger_config INFO: 304047327 DOGEUSD = 0.6073 target HIGHER 0.69 
+2021-05-06 23:08:19,200 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:08:29,779 logger_config INFO: 304047327 DOGEUSD = 0.6078 target HIGHER 0.69 
+2021-05-06 23:08:29,779 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:08:40,322 logger_config INFO: 304047327 DOGEUSD = 0.6078 target HIGHER 0.69 
+2021-05-06 23:08:40,323 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:08:50,857 logger_config INFO: 304047327 DOGEUSD = 0.6081 target HIGHER 0.69 
+2021-05-06 23:08:50,857 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:09:03,901 logger_config INFO: 304047327 DOGEUSD = 0.6083 target HIGHER 0.69 
+2021-05-06 23:09:03,901 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 23:09:14,415 logger_config INFO: 304047327 DOGEUSD = 0.6077 target HIGHER 0.69 
+2021-05-06 23:09:14,416 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:09:27,084 logger_config INFO: 304047327 DOGEUSD = 0.6069 target HIGHER 0.69 
+2021-05-06 23:09:27,085 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 23:09:37,720 logger_config INFO: 304047327 DOGEUSD = 0.6068 target HIGHER 0.69 
+2021-05-06 23:09:37,720 logger_config INFO: 304047327 ZILUSD = 0.2427 target HIGHER 0.26 
+2021-05-06 23:09:50,030 logger_config INFO: 304047327 DOGEUSD = 0.6064 target HIGHER 0.69 
+2021-05-06 23:09:50,031 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 23:10:00,630 logger_config INFO: 304047327 DOGEUSD = 0.6068 target HIGHER 0.69 
+2021-05-06 23:10:00,630 logger_config INFO: 304047327 ZILUSD = 0.2427 target HIGHER 0.26 
+2021-05-06 23:10:11,152 logger_config INFO: 304047327 DOGEUSD = 0.6062 target HIGHER 0.69 
+2021-05-06 23:10:11,152 logger_config INFO: 304047327 ZILUSD = 0.2426 target HIGHER 0.26 
+2021-05-06 23:10:21,631 logger_config INFO: 304047327 DOGEUSD = 0.6063 target HIGHER 0.69 
+2021-05-06 23:10:21,632 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 23:10:32,176 logger_config INFO: 304047327 DOGEUSD = 0.6061 target HIGHER 0.69 
+2021-05-06 23:10:32,176 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:10:42,713 logger_config INFO: 304047327 DOGEUSD = 0.6061 target HIGHER 0.69 
+2021-05-06 23:10:42,713 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:10:53,423 logger_config INFO: 304047327 DOGEUSD = 0.6066 target HIGHER 0.69 
+2021-05-06 23:10:53,423 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 23:11:04,048 logger_config INFO: 304047327 DOGEUSD = 0.6065 target HIGHER 0.69 
+2021-05-06 23:11:04,053 logger_config INFO: 304047327 ZILUSD = 0.2428 target HIGHER 0.26 
+2021-05-06 23:11:14,940 logger_config INFO: 304047327 DOGEUSD = 0.6065 target HIGHER 0.69 
+2021-05-06 23:11:14,940 logger_config INFO: 304047327 ZILUSD = 0.2429 target HIGHER 0.26 
+2021-05-06 23:11:25,455 logger_config INFO: 304047327 DOGEUSD = 0.6064 target HIGHER 0.69 
+2021-05-06 23:11:25,455 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:11:35,972 logger_config INFO: 304047327 DOGEUSD = 0.6065 target HIGHER 0.69 
+2021-05-06 23:11:35,974 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:11:46,499 logger_config INFO: 304047327 DOGEUSD = 0.6066 target HIGHER 0.69 
+2021-05-06 23:11:46,499 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 23:11:57,462 logger_config INFO: 304047327 DOGEUSD = 0.6075 target HIGHER 0.69 
+2021-05-06 23:11:57,462 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:12:07,972 logger_config INFO: 304047327 DOGEUSD = 0.6077 target HIGHER 0.69 
+2021-05-06 23:12:07,972 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:12:18,496 logger_config INFO: 304047327 DOGEUSD = 0.6079 target HIGHER 0.69 
+2021-05-06 23:12:18,496 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:12:29,003 logger_config INFO: 304047327 DOGEUSD = 0.608 target HIGHER 0.69 
+2021-05-06 23:12:29,004 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:12:39,531 logger_config INFO: 304047327 DOGEUSD = 0.6084 target HIGHER 0.69 
+2021-05-06 23:12:39,531 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:12:50,086 logger_config INFO: 304047327 DOGEUSD = 0.6086 target HIGHER 0.69 
+2021-05-06 23:12:50,086 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:13:00,569 logger_config INFO: 304047327 DOGEUSD = 0.6084 target HIGHER 0.69 
+2021-05-06 23:13:00,569 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:13:11,062 logger_config INFO: 304047327 DOGEUSD = 0.6091 target HIGHER 0.69 
+2021-05-06 23:13:11,063 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:13:21,625 logger_config INFO: 304047327 DOGEUSD = 0.609 target HIGHER 0.69 
+2021-05-06 23:13:21,625 logger_config INFO: 304047327 ZILUSD = 0.243 target HIGHER 0.26 
+2021-05-06 23:13:32,735 logger_config INFO: 304047327 DOGEUSD = 0.6099 target HIGHER 0.69 
+2021-05-06 23:13:32,750 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:13:43,295 logger_config INFO: 304047327 DOGEUSD = 0.6097 target HIGHER 0.69 
+2021-05-06 23:13:43,295 logger_config INFO: 304047327 ZILUSD = 0.2431 target HIGHER 0.26 
+2021-05-06 23:13:53,797 logger_config INFO: 304047327 DOGEUSD = 0.6093 target HIGHER 0.69 
+2021-05-06 23:13:53,797 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 23:14:04,481 logger_config INFO: 304047327 DOGEUSD = 0.6083 target HIGHER 0.69 
+2021-05-06 23:14:04,481 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 23:14:15,073 logger_config INFO: 304047327 DOGEUSD = 0.6082 target HIGHER 0.69 
+2021-05-06 23:14:15,074 logger_config INFO: 304047327 ZILUSD = 0.2432 target HIGHER 0.26 
+2021-05-06 23:14:25,601 logger_config INFO: 304047327 DOGEUSD = 0.6076 target HIGHER 0.69 
+2021-05-06 23:14:25,601 logger_config INFO: 304047327 ZILUSD = 0.2435 target HIGHER 0.26 
+2021-05-06 23:14:36,356 logger_config INFO: 304047327 DOGEUSD = 0.6081 target HIGHER 0.69 
+2021-05-06 23:14:36,356 logger_config INFO: 304047327 ZILUSD = 0.2435 target HIGHER 0.26 
+2021-05-06 23:14:46,897 logger_config INFO: 304047327 DOGEUSD = 0.6084 target HIGHER 0.69 
+2021-05-06 23:14:46,897 logger_config INFO: 304047327 ZILUSD = 0.2437 target HIGHER 0.26 
+2021-05-06 23:15:00,890 logger_config INFO: 304047327 DOGEUSD = 0.6078 target HIGHER 0.69 
+2021-05-06 23:15:00,890 logger_config INFO: 304047327 ZILUSD = 0.2438 target HIGHER 0.26 
+2021-05-06 23:15:11,406 logger_config INFO: 304047327 DOGEUSD = 0.6075 target HIGHER 0.69 
+2021-05-06 23:15:11,407 logger_config INFO: 304047327 ZILUSD = 0.2438 target HIGHER 0.26 
+2021-05-06 23:15:21,904 logger_config INFO: 304047327 DOGEUSD = 0.6071 target HIGHER 0.69 
+2021-05-06 23:15:21,905 logger_config INFO: 304047327 ZILUSD = 0.2439 target HIGHER 0.26 
+2021-05-06 23:15:32,389 logger_config INFO: 304047327 DOGEUSD = 0.6068 target HIGHER 0.69 
+2021-05-06 23:15:32,390 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:15:42,892 logger_config INFO: 304047327 DOGEUSD = 0.6069 target HIGHER 0.69 
+2021-05-06 23:15:42,893 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:15:53,409 logger_config INFO: 304047327 DOGEUSD = 0.6072 target HIGHER 0.69 
+2021-05-06 23:15:53,409 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:16:03,939 logger_config INFO: 304047327 DOGEUSD = 0.6067 target HIGHER 0.69 
+2021-05-06 23:16:03,940 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:16:14,442 logger_config INFO: 304047327 DOGEUSD = 0.6073 target HIGHER 0.69 
+2021-05-06 23:16:14,442 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:16:25,009 logger_config INFO: 304047327 DOGEUSD = 0.6072 target HIGHER 0.69 
+2021-05-06 23:16:25,009 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:16:35,580 logger_config INFO: 304047327 DOGEUSD = 0.6068 target HIGHER 0.69 
+2021-05-06 23:16:35,581 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:16:49,646 logger_config INFO: 304047327 DOGEUSD = 0.6062 target HIGHER 0.69 
+2021-05-06 23:16:49,647 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:17:00,370 logger_config INFO: 304047327 DOGEUSD = 0.6062 target HIGHER 0.69 
+2021-05-06 23:17:00,371 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:17:10,902 logger_config INFO: 304047327 DOGEUSD = 0.6063 target HIGHER 0.69 
+2021-05-06 23:17:10,902 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:17:21,418 logger_config INFO: 304047327 DOGEUSD = 0.6062 target HIGHER 0.69 
+2021-05-06 23:17:21,418 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:17:31,938 logger_config INFO: 304047327 DOGEUSD = 0.6055 target HIGHER 0.69 
+2021-05-06 23:17:31,938 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:17:42,780 logger_config INFO: 304047327 DOGEUSD = 0.606 target HIGHER 0.69 
+2021-05-06 23:17:42,781 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:17:53,810 logger_config INFO: 304047327 DOGEUSD = 0.6059 target HIGHER 0.69 
+2021-05-06 23:17:53,811 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:18:05,621 logger_config INFO: 304047327 DOGEUSD = 0.6055 target HIGHER 0.69 
+2021-05-06 23:18:05,621 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:18:16,211 logger_config INFO: 304047327 DOGEUSD = 0.6058 target HIGHER 0.69 
+2021-05-06 23:18:16,212 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:18:26,781 logger_config INFO: 304047327 DOGEUSD = 0.6058 target HIGHER 0.69 
+2021-05-06 23:18:26,781 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:18:37,524 logger_config INFO: 304047327 DOGEUSD = 0.6054 target HIGHER 0.69 
+2021-05-06 23:18:37,525 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:18:48,055 logger_config INFO: 304047327 DOGEUSD = 0.6057 target HIGHER 0.69 
+2021-05-06 23:18:48,056 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:18:58,708 logger_config INFO: 304047327 DOGEUSD = 0.6058 target HIGHER 0.69 
+2021-05-06 23:18:58,708 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:19:12,096 logger_config INFO: 304047327 DOGEUSD = 0.6058 target HIGHER 0.69 
+2021-05-06 23:19:12,096 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:19:22,957 logger_config INFO: 304047327 DOGEUSD = 0.6059 target HIGHER 0.69 
+2021-05-06 23:19:22,958 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:19:33,543 logger_config INFO: 304047327 DOGEUSD = 0.6056 target HIGHER 0.69 
+2021-05-06 23:19:33,543 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:19:45,321 logger_config INFO: 304047327 DOGEUSD = 0.6051 target HIGHER 0.69 
+2021-05-06 23:19:45,321 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:19:56,337 logger_config INFO: 304047327 DOGEUSD = 0.6054 target HIGHER 0.69 
+2021-05-06 23:19:56,337 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:20:07,052 logger_config INFO: 304047327 DOGEUSD = 0.6055 target HIGHER 0.69 
+2021-05-06 23:20:07,053 logger_config INFO: 304047327 ZILUSD = 0.2439 target HIGHER 0.26 
+2021-05-06 23:20:17,606 logger_config INFO: 304047327 DOGEUSD = 0.6053 target HIGHER 0.69 
+2021-05-06 23:20:17,606 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:20:28,146 logger_config INFO: 304047327 DOGEUSD = 0.6052 target HIGHER 0.69 
+2021-05-06 23:20:28,146 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:20:39,071 logger_config INFO: 304047327 DOGEUSD = 0.6054 target HIGHER 0.69 
+2021-05-06 23:20:39,071 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:20:49,614 logger_config INFO: 304047327 DOGEUSD = 0.6054 target HIGHER 0.69 
+2021-05-06 23:20:49,614 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:21:00,149 logger_config INFO: 304047327 DOGEUSD = 0.6065 target HIGHER 0.69 
+2021-05-06 23:21:00,150 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:21:11,354 logger_config INFO: 304047327 DOGEUSD = 0.6061 target HIGHER 0.69 
+2021-05-06 23:21:11,355 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:21:22,094 logger_config INFO: 304047327 DOGEUSD = 0.6057 target HIGHER 0.69 
+2021-05-06 23:21:22,094 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:21:32,636 logger_config INFO: 304047327 DOGEUSD = 0.6049 target HIGHER 0.69 
+2021-05-06 23:21:32,637 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:21:43,735 logger_config INFO: 304047327 DOGEUSD = 0.6044 target HIGHER 0.69 
+2021-05-06 23:21:43,735 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:21:54,347 logger_config INFO: 304047327 DOGEUSD = 0.6034 target HIGHER 0.69 
+2021-05-06 23:21:54,347 logger_config INFO: 304047327 ZILUSD = 0.244 target HIGHER 0.26 
+2021-05-06 23:22:04,915 logger_config INFO: 304047327 DOGEUSD = 0.6027 target HIGHER 0.69 
+2021-05-06 23:22:04,915 logger_config INFO: 304047327 ZILUSD = 0.2439 target HIGHER 0.26 
+2021-05-06 23:22:17,188 logger_config INFO: 304047327 DOGEUSD = 0.6027 target HIGHER 0.69 
+2021-05-06 23:22:17,188 logger_config INFO: 304047327 ZILUSD = 0.2439 target HIGHER 0.26 
+2021-05-06 23:22:27,700 logger_config INFO: 304047327 DOGEUSD = 0.6032 target HIGHER 0.69 
+2021-05-06 23:22:27,700 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:22:38,856 logger_config INFO: 304047327 DOGEUSD = 0.6032 target HIGHER 0.69 
+2021-05-06 23:22:38,856 logger_config INFO: 304047327 ZILUSD = 0.2441 target HIGHER 0.26 
+2021-05-06 23:22:49,385 logger_config INFO: 304047327 DOGEUSD = 0.6031 target HIGHER 0.69 
+2021-05-06 23:22:49,385 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:23:02,876 logger_config INFO: 304047327 DOGEUSD = 0.6035 target HIGHER 0.69 
+2021-05-06 23:23:02,876 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:23:13,686 logger_config INFO: 304047327 DOGEUSD = 0.6031 target HIGHER 0.69 
+2021-05-06 23:23:13,686 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:23:24,208 logger_config INFO: 304047327 DOGEUSD = 0.6031 target HIGHER 0.69 
+2021-05-06 23:23:24,208 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:23:34,716 logger_config INFO: 304047327 DOGEUSD = 0.6031 target HIGHER 0.69 
+2021-05-06 23:23:34,716 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:23:46,335 logger_config INFO: 304047327 DOGEUSD = 0.6035 target HIGHER 0.69 
+2021-05-06 23:23:46,335 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:23:56,866 logger_config INFO: 304047327 DOGEUSD = 0.603 target HIGHER 0.69 
+2021-05-06 23:23:56,866 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:24:07,375 logger_config INFO: 304047327 DOGEUSD = 0.6025 target HIGHER 0.69 
+2021-05-06 23:24:07,375 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:24:17,996 logger_config INFO: 304047327 DOGEUSD = 0.6026 target HIGHER 0.69 
+2021-05-06 23:24:17,996 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:24:28,530 logger_config INFO: 304047327 DOGEUSD = 0.6021 target HIGHER 0.69 
+2021-05-06 23:24:28,530 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:24:41,246 logger_config INFO: 304047327 DOGEUSD = 0.6026 target HIGHER 0.69 
+2021-05-06 23:24:41,255 logger_config INFO: 304047327 ZILUSD = 0.2446 target HIGHER 0.26 
+2021-05-06 23:24:51,906 logger_config INFO: 304047327 DOGEUSD = 0.6016 target HIGHER 0.69 
+2021-05-06 23:24:51,906 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:25:02,436 logger_config INFO: 304047327 DOGEUSD = 0.6023 target HIGHER 0.69 
+2021-05-06 23:25:02,436 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:25:17,416 logger_config INFO: 304047327 DOGEUSD = 0.6024 target HIGHER 0.69 
+2021-05-06 23:25:17,416 logger_config INFO: 304047327 ZILUSD = 0.2446 target HIGHER 0.26 
+2021-05-06 23:25:27,956 logger_config INFO: 304047327 DOGEUSD = 0.6029 target HIGHER 0.69 
+2021-05-06 23:25:27,956 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:25:38,492 logger_config INFO: 304047327 DOGEUSD = 0.6037 target HIGHER 0.69 
+2021-05-06 23:25:38,493 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:25:49,566 logger_config INFO: 304047327 DOGEUSD = 0.6037 target HIGHER 0.69 
+2021-05-06 23:25:49,566 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:26:00,085 logger_config INFO: 304047327 DOGEUSD = 0.604 target HIGHER 0.69 
+2021-05-06 23:26:00,085 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:26:10,605 logger_config INFO: 304047327 DOGEUSD = 0.6037 target HIGHER 0.69 
+2021-05-06 23:26:10,605 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:26:21,756 logger_config INFO: 304047327 DOGEUSD = 0.6029 target HIGHER 0.69 
+2021-05-06 23:26:21,756 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:26:32,276 logger_config INFO: 304047327 DOGEUSD = 0.6039 target HIGHER 0.69 
+2021-05-06 23:26:32,276 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:26:42,805 logger_config INFO: 304047327 DOGEUSD = 0.6038 target HIGHER 0.69 
+2021-05-06 23:26:42,805 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:26:53,396 logger_config INFO: 304047327 DOGEUSD = 0.6037 target HIGHER 0.69 
+2021-05-06 23:26:53,396 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 23:27:03,915 logger_config INFO: 304047327 DOGEUSD = 0.6036 target HIGHER 0.69 
+2021-05-06 23:27:03,915 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:27:14,458 logger_config INFO: 304047327 DOGEUSD = 0.6038 target HIGHER 0.69 
+2021-05-06 23:27:14,458 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:27:25,317 logger_config INFO: 304047327 DOGEUSD = 0.6038 target HIGHER 0.69 
+2021-05-06 23:27:25,318 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 23:27:36,095 logger_config INFO: 304047327 DOGEUSD = 0.6038 target HIGHER 0.69 
+2021-05-06 23:27:36,095 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:27:46,585 logger_config INFO: 304047327 DOGEUSD = 0.6039 target HIGHER 0.69 
+2021-05-06 23:27:46,585 logger_config INFO: 304047327 ZILUSD = 0.2446 target HIGHER 0.26 
+2021-05-06 23:27:57,217 logger_config INFO: 304047327 DOGEUSD = 0.6028 target HIGHER 0.69 
+2021-05-06 23:27:57,219 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:28:07,709 logger_config INFO: 304047327 DOGEUSD = 0.6036 target HIGHER 0.69 
+2021-05-06 23:28:07,711 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:28:18,205 logger_config INFO: 304047327 DOGEUSD = 0.6037 target HIGHER 0.69 
+2021-05-06 23:28:18,205 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:28:28,705 logger_config INFO: 304047327 DOGEUSD = 0.604 target HIGHER 0.69 
+2021-05-06 23:28:28,705 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:28:39,256 logger_config INFO: 304047327 DOGEUSD = 0.6036 target HIGHER 0.69 
+2021-05-06 23:28:39,256 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:28:49,836 logger_config INFO: 304047327 DOGEUSD = 0.6039 target HIGHER 0.69 
+2021-05-06 23:28:49,836 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:29:00,371 logger_config INFO: 304047327 DOGEUSD = 0.6039 target HIGHER 0.69 
+2021-05-06 23:29:00,371 logger_config INFO: 304047327 ZILUSD = 0.2446 target HIGHER 0.26 
+2021-05-06 23:29:10,883 logger_config INFO: 304047327 DOGEUSD = 0.6041 target HIGHER 0.69 
+2021-05-06 23:29:10,883 logger_config INFO: 304047327 ZILUSD = 0.2446 target HIGHER 0.26 
+2021-05-06 23:29:23,204 logger_config INFO: 304047327 DOGEUSD = 0.6045 target HIGHER 0.69 
+2021-05-06 23:29:23,205 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:29:36,607 logger_config INFO: 304047327 DOGEUSD = 0.6039 target HIGHER 0.69 
+2021-05-06 23:29:36,607 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:29:47,135 logger_config INFO: 304047327 DOGEUSD = 0.6043 target HIGHER 0.69 
+2021-05-06 23:29:47,135 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:29:57,638 logger_config INFO: 304047327 DOGEUSD = 0.6044 target HIGHER 0.69 
+2021-05-06 23:29:57,639 logger_config INFO: 304047327 ZILUSD = 0.2443 target HIGHER 0.26 
+2021-05-06 23:30:08,181 logger_config INFO: 304047327 DOGEUSD = 0.6044 target HIGHER 0.69 
+2021-05-06 23:30:08,182 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:30:18,689 logger_config INFO: 304047327 DOGEUSD = 0.6043 target HIGHER 0.69 
+2021-05-06 23:30:18,690 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:30:29,217 logger_config INFO: 304047327 DOGEUSD = 0.6036 target HIGHER 0.69 
+2021-05-06 23:30:29,218 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:30:39,850 logger_config INFO: 304047327 DOGEUSD = 0.6033 target HIGHER 0.69 
+2021-05-06 23:30:39,851 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:30:50,973 logger_config INFO: 304047327 DOGEUSD = 0.603 target HIGHER 0.69 
+2021-05-06 23:30:50,974 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:31:01,900 logger_config INFO: 304047327 DOGEUSD = 0.6027 target HIGHER 0.69 
+2021-05-06 23:31:01,901 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:31:12,444 logger_config INFO: 304047327 DOGEUSD = 0.6025 target HIGHER 0.69 
+2021-05-06 23:31:12,445 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:31:23,003 logger_config INFO: 304047327 DOGEUSD = 0.6024 target HIGHER 0.69 
+2021-05-06 23:31:23,003 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:31:33,574 logger_config INFO: 304047327 DOGEUSD = 0.6019 target HIGHER 0.69 
+2021-05-06 23:31:33,575 logger_config INFO: 304047327 ZILUSD = 0.2446 target HIGHER 0.26 
+2021-05-06 23:31:46,877 logger_config INFO: 304047327 DOGEUSD = 0.6011 target HIGHER 0.69 
+2021-05-06 23:31:46,878 logger_config INFO: 304047327 ZILUSD = 0.2446 target HIGHER 0.26 
+2021-05-06 23:31:57,466 logger_config INFO: 304047327 DOGEUSD = 0.6008 target HIGHER 0.69 
+2021-05-06 23:31:57,467 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:32:08,029 logger_config INFO: 304047327 DOGEUSD = 0.6004 target HIGHER 0.69 
+2021-05-06 23:32:08,030 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:32:18,810 logger_config INFO: 304047327 DOGEUSD = 0.6009 target HIGHER 0.69 
+2021-05-06 23:32:18,811 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:32:29,348 logger_config INFO: 304047327 DOGEUSD = 0.6006 target HIGHER 0.69 
+2021-05-06 23:32:29,349 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:32:41,490 logger_config INFO: 304047327 DOGEUSD = 0.599 target HIGHER 0.69 
+2021-05-06 23:32:41,490 logger_config INFO: 304047327 ZILUSD = 0.2446 target HIGHER 0.26 
+2021-05-06 23:32:52,034 logger_config INFO: 304047327 DOGEUSD = 0.5989 target HIGHER 0.69 
+2021-05-06 23:32:52,035 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:33:02,555 logger_config INFO: 304047327 DOGEUSD = 0.5985 target HIGHER 0.69 
+2021-05-06 23:33:02,555 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:33:13,128 logger_config INFO: 304047327 DOGEUSD = 0.5994 target HIGHER 0.69 
+2021-05-06 23:33:13,129 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:33:23,685 logger_config INFO: 304047327 DOGEUSD = 0.5991 target HIGHER 0.69 
+2021-05-06 23:33:23,686 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:33:34,203 logger_config INFO: 304047327 DOGEUSD = 0.5992 target HIGHER 0.69 
+2021-05-06 23:33:34,204 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 23:33:44,782 logger_config INFO: 304047327 DOGEUSD = 0.5989 target HIGHER 0.69 
+2021-05-06 23:33:44,783 logger_config INFO: 304047327 ZILUSD = 0.2448 target HIGHER 0.26 
+2021-05-06 23:33:55,317 logger_config INFO: 304047327 DOGEUSD = 0.5987 target HIGHER 0.69 
+2021-05-06 23:33:55,317 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:34:05,869 logger_config INFO: 304047327 DOGEUSD = 0.5987 target HIGHER 0.69 
+2021-05-06 23:34:05,902 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:34:16,435 logger_config INFO: 304047327 DOGEUSD = 0.5987 target HIGHER 0.69 
+2021-05-06 23:34:16,435 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:34:27,083 logger_config INFO: 304047327 DOGEUSD = 0.5988 target HIGHER 0.69 
+2021-05-06 23:34:27,084 logger_config INFO: 304047327 ZILUSD = 0.2446 target HIGHER 0.26 
+2021-05-06 23:34:37,627 logger_config INFO: 304047327 DOGEUSD = 0.5998 target HIGHER 0.69 
+2021-05-06 23:34:37,628 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:34:48,396 logger_config INFO: 304047327 DOGEUSD = 0.5997 target HIGHER 0.69 
+2021-05-06 23:34:48,398 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:34:58,979 logger_config INFO: 304047327 DOGEUSD = 0.5999 target HIGHER 0.69 
+2021-05-06 23:34:58,979 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:35:10,792 logger_config INFO: 304047327 DOGEUSD = 0.6001 target HIGHER 0.69 
+2021-05-06 23:35:10,793 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:35:21,355 logger_config INFO: 304047327 DOGEUSD = 0.6002 target HIGHER 0.69 
+2021-05-06 23:35:21,356 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:35:31,918 logger_config INFO: 304047327 DOGEUSD = 0.6005 target HIGHER 0.69 
+2021-05-06 23:35:31,919 logger_config INFO: 304047327 ZILUSD = 0.2442 target HIGHER 0.26 
+2021-05-06 23:35:42,472 logger_config INFO: 304047327 DOGEUSD = 0.6004 target HIGHER 0.69 
+2021-05-06 23:35:42,475 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:35:54,915 logger_config INFO: 304047327 DOGEUSD = 0.6005 target HIGHER 0.69 
+2021-05-06 23:35:54,916 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:36:05,902 logger_config INFO: 304047327 DOGEUSD = 0.6004 target HIGHER 0.69 
+2021-05-06 23:36:05,903 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:36:16,438 logger_config INFO: 304047327 DOGEUSD = 0.6001 target HIGHER 0.69 
+2021-05-06 23:36:16,453 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:36:27,118 logger_config INFO: 304047327 DOGEUSD = 0.5998 target HIGHER 0.69 
+2021-05-06 23:36:27,119 logger_config INFO: 304047327 ZILUSD = 0.2444 target HIGHER 0.26 
+2021-05-06 23:36:40,099 logger_config INFO: 304047327 DOGEUSD = 0.5995 target HIGHER 0.69 
+2021-05-06 23:36:40,107 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:36:50,772 logger_config INFO: 304047327 DOGEUSD = 0.5994 target HIGHER 0.69 
+2021-05-06 23:36:50,775 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:37:01,338 logger_config INFO: 304047327 DOGEUSD = 0.5993 target HIGHER 0.69 
+2021-05-06 23:37:01,339 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:37:11,862 logger_config INFO: 304047327 DOGEUSD = 0.5991 target HIGHER 0.69 
+2021-05-06 23:37:11,872 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:37:22,429 logger_config INFO: 304047327 DOGEUSD = 0.599 target HIGHER 0.69 
+2021-05-06 23:37:22,431 logger_config INFO: 304047327 ZILUSD = 0.2445 target HIGHER 0.26 
+2021-05-06 23:37:32,983 logger_config INFO: 304047327 DOGEUSD = 0.5987 target HIGHER 0.69 
+2021-05-06 23:37:32,985 logger_config INFO: 304047327 ZILUSD = 0.2446 target HIGHER 0.26 
+2021-05-06 23:37:46,489 logger_config INFO: 304047327 DOGEUSD = 0.5986 target HIGHER 0.69 
+2021-05-06 23:37:46,493 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 23:37:57,012 logger_config INFO: 304047327 DOGEUSD = 0.5986 target HIGHER 0.69 
+2021-05-06 23:37:57,013 logger_config INFO: 304047327 ZILUSD = 0.2457 target HIGHER 0.26 
+2021-05-06 23:38:08,183 logger_config INFO: 304047327 DOGEUSD = 0.5995 target HIGHER 0.69 
+2021-05-06 23:38:08,184 logger_config INFO: 304047327 ZILUSD = 0.2455 target HIGHER 0.26 
+2021-05-06 23:38:19,421 logger_config INFO: 304047327 DOGEUSD = 0.5999 target HIGHER 0.69 
+2021-05-06 23:38:19,460 logger_config INFO: 304047327 ZILUSD = 0.2456 target HIGHER 0.26 
+2021-05-06 23:38:30,050 logger_config INFO: 304047327 DOGEUSD = 0.5996 target HIGHER 0.69 
+2021-05-06 23:38:30,051 logger_config INFO: 304047327 ZILUSD = 0.2471 target HIGHER 0.26 
+2021-05-06 23:38:40,613 logger_config INFO: 304047327 DOGEUSD = 0.6002 target HIGHER 0.69 
+2021-05-06 23:38:40,614 logger_config INFO: 304047327 ZILUSD = 0.2477 target HIGHER 0.26 
+2021-05-06 23:38:52,496 logger_config INFO: 304047327 DOGEUSD = 0.5999 target HIGHER 0.69 
+2021-05-06 23:38:52,496 logger_config INFO: 304047327 ZILUSD = 0.2493 target HIGHER 0.26 
+2021-05-06 23:39:03,258 logger_config INFO: 304047327 DOGEUSD = 0.6009 target HIGHER 0.69 
+2021-05-06 23:39:03,258 logger_config INFO: 304047327 ZILUSD = 0.2492 target HIGHER 0.26 
+2021-05-06 23:39:13,875 logger_config INFO: 304047327 DOGEUSD = 0.6005 target HIGHER 0.69 
+2021-05-06 23:39:13,876 logger_config INFO: 304047327 ZILUSD = 0.2492 target HIGHER 0.26 
+2021-05-06 23:39:26,107 logger_config INFO: 304047327 DOGEUSD = 0.6001 target HIGHER 0.69 
+2021-05-06 23:39:26,107 logger_config INFO: 304047327 ZILUSD = 0.2493 target HIGHER 0.26 
+2021-05-06 23:39:38,698 logger_config INFO: 304047327 DOGEUSD = 0.6003 target HIGHER 0.69 
+2021-05-06 23:39:38,702 logger_config INFO: 304047327 ZILUSD = 0.2491 target HIGHER 0.26 
+2021-05-06 23:39:49,450 logger_config INFO: 304047327 DOGEUSD = 0.6004 target HIGHER 0.69 
+2021-05-06 23:39:49,451 logger_config INFO: 304047327 ZILUSD = 0.2491 target HIGHER 0.26 
+2021-05-06 23:40:00,091 logger_config INFO: 304047327 DOGEUSD = 0.5996 target HIGHER 0.69 
+2021-05-06 23:40:00,092 logger_config INFO: 304047327 ZILUSD = 0.2481 target HIGHER 0.26 
+2021-05-06 23:40:10,611 logger_config INFO: 304047327 DOGEUSD = 0.5995 target HIGHER 0.69 
+2021-05-06 23:40:10,612 logger_config INFO: 304047327 ZILUSD = 0.2482 target HIGHER 0.26 
+2021-05-06 23:40:21,513 logger_config INFO: 304047327 DOGEUSD = 0.6 target HIGHER 0.69 
+2021-05-06 23:40:21,524 logger_config INFO: 304047327 ZILUSD = 0.2489 target HIGHER 0.26 
+2021-05-06 23:40:32,126 logger_config INFO: 304047327 DOGEUSD = 0.6 target HIGHER 0.69 
+2021-05-06 23:40:32,127 logger_config INFO: 304047327 ZILUSD = 0.2491 target HIGHER 0.26 
+2021-05-06 23:40:43,120 logger_config INFO: 304047327 DOGEUSD = 0.6002 target HIGHER 0.69 
+2021-05-06 23:40:43,122 logger_config INFO: 304047327 ZILUSD = 0.2493 target HIGHER 0.26 
+2021-05-06 23:40:53,669 logger_config INFO: 304047327 DOGEUSD = 0.6008 target HIGHER 0.69 
+2021-05-06 23:40:53,672 logger_config INFO: 304047327 ZILUSD = 0.2501 target HIGHER 0.26 
+2021-05-06 23:41:04,237 logger_config INFO: 304047327 DOGEUSD = 0.6009 target HIGHER 0.69 
+2021-05-06 23:41:04,238 logger_config INFO: 304047327 ZILUSD = 0.2504 target HIGHER 0.26 
+2021-05-06 23:41:14,959 logger_config INFO: 304047327 DOGEUSD = 0.6007 target HIGHER 0.69 
+2021-05-06 23:41:14,960 logger_config INFO: 304047327 ZILUSD = 0.2505 target HIGHER 0.26 
+2021-05-06 23:41:25,489 logger_config INFO: 304047327 DOGEUSD = 0.601 target HIGHER 0.69 
+2021-05-06 23:41:25,490 logger_config INFO: 304047327 ZILUSD = 0.2508 target HIGHER 0.26 
+2021-05-06 23:41:36,211 logger_config INFO: 304047327 DOGEUSD = 0.602 target HIGHER 0.69 
+2021-05-06 23:41:36,212 logger_config INFO: 304047327 ZILUSD = 0.2506 target HIGHER 0.26 
+2021-05-06 23:41:46,846 logger_config INFO: 304047327 DOGEUSD = 0.6015 target HIGHER 0.69 
+2021-05-06 23:41:46,846 logger_config INFO: 304047327 ZILUSD = 0.2504 target HIGHER 0.26 
+2021-05-06 23:41:57,419 logger_config INFO: 304047327 DOGEUSD = 0.6014 target HIGHER 0.69 
+2021-05-06 23:41:57,427 logger_config INFO: 304047327 ZILUSD = 0.2504 target HIGHER 0.26 
+2021-05-06 23:42:07,993 logger_config INFO: 304047327 DOGEUSD = 0.6014 target HIGHER 0.69 
+2021-05-06 23:42:07,993 logger_config INFO: 304047327 ZILUSD = 0.2504 target HIGHER 0.26 
+2021-05-06 23:42:18,569 logger_config INFO: 304047327 DOGEUSD = 0.6015 target HIGHER 0.69 
+2021-05-06 23:42:18,570 logger_config INFO: 304047327 ZILUSD = 0.2504 target HIGHER 0.26 
+2021-05-06 23:42:29,080 logger_config INFO: 304047327 DOGEUSD = 0.6015 target HIGHER 0.69 
+2021-05-06 23:42:29,081 logger_config INFO: 304047327 ZILUSD = 0.2505 target HIGHER 0.26 
+2021-05-06 23:42:39,721 logger_config INFO: 304047327 DOGEUSD = 0.6009 target HIGHER 0.69 
+2021-05-06 23:42:39,723 logger_config INFO: 304047327 ZILUSD = 0.2504 target HIGHER 0.26 
+2021-05-06 23:42:50,388 logger_config INFO: 304047327 DOGEUSD = 0.6011 target HIGHER 0.69 
+2021-05-06 23:42:50,389 logger_config INFO: 304047327 ZILUSD = 0.2505 target HIGHER 0.26 
+2021-05-06 23:43:00,924 logger_config INFO: 304047327 DOGEUSD = 0.6007 target HIGHER 0.69 
+2021-05-06 23:43:00,924 logger_config INFO: 304047327 ZILUSD = 0.2499 target HIGHER 0.26 
+2021-05-06 23:43:11,485 logger_config INFO: 304047327 DOGEUSD = 0.6006 target HIGHER 0.69 
+2021-05-06 23:43:11,486 logger_config INFO: 304047327 ZILUSD = 0.25 target HIGHER 0.26 
+2021-05-06 23:43:22,045 logger_config INFO: 304047327 DOGEUSD = 0.6008 target HIGHER 0.69 
+2021-05-06 23:43:22,046 logger_config INFO: 304047327 ZILUSD = 0.2499 target HIGHER 0.26 
+2021-05-06 23:43:32,608 logger_config INFO: 304047327 DOGEUSD = 0.6008 target HIGHER 0.69 
+2021-05-06 23:43:32,609 logger_config INFO: 304047327 ZILUSD = 0.2499 target HIGHER 0.26 
+2021-05-06 23:43:43,146 logger_config INFO: 304047327 DOGEUSD = 0.6008 target HIGHER 0.69 
+2021-05-06 23:43:43,147 logger_config INFO: 304047327 ZILUSD = 0.2497 target HIGHER 0.26 
+2021-05-06 23:43:53,697 logger_config INFO: 304047327 DOGEUSD = 0.5999 target HIGHER 0.69 
+2021-05-06 23:43:53,698 logger_config INFO: 304047327 ZILUSD = 0.2499 target HIGHER 0.26 
+2021-05-06 23:44:04,337 logger_config INFO: 304047327 DOGEUSD = 0.5997 target HIGHER 0.69 
+2021-05-06 23:44:04,338 logger_config INFO: 304047327 ZILUSD = 0.2498 target HIGHER 0.26 
+2021-05-06 23:44:15,278 logger_config INFO: 304047327 DOGEUSD = 0.5994 target HIGHER 0.69 
+2021-05-06 23:44:15,279 logger_config INFO: 304047327 ZILUSD = 0.2498 target HIGHER 0.26 
+2021-05-06 23:44:25,856 logger_config INFO: 304047327 DOGEUSD = 0.5991 target HIGHER 0.69 
+2021-05-06 23:44:25,860 logger_config INFO: 304047327 ZILUSD = 0.2489 target HIGHER 0.26 
+2021-05-06 23:44:36,643 logger_config INFO: 304047327 DOGEUSD = 0.5989 target HIGHER 0.69 
+2021-05-06 23:44:36,644 logger_config INFO: 304047327 ZILUSD = 0.2489 target HIGHER 0.26 
+2021-05-06 23:44:47,883 logger_config INFO: 304047327 DOGEUSD = 0.5988 target HIGHER 0.69 
+2021-05-06 23:44:47,884 logger_config INFO: 304047327 ZILUSD = 0.249 target HIGHER 0.26 
+2021-05-06 23:44:58,534 logger_config INFO: 304047327 DOGEUSD = 0.5984 target HIGHER 0.69 
+2021-05-06 23:44:58,539 logger_config INFO: 304047327 ZILUSD = 0.2494 target HIGHER 0.26 
+2021-05-06 23:45:09,177 logger_config INFO: 304047327 DOGEUSD = 0.5983 target HIGHER 0.69 
+2021-05-06 23:45:09,180 logger_config INFO: 304047327 ZILUSD = 0.2493 target HIGHER 0.26 
+2021-05-06 23:45:19,771 logger_config INFO: 304047327 DOGEUSD = 0.5984 target HIGHER 0.69 
+2021-05-06 23:45:19,790 logger_config INFO: 304047327 ZILUSD = 0.2494 target HIGHER 0.26 
+2021-05-06 23:45:30,358 logger_config INFO: 304047327 DOGEUSD = 0.5984 target HIGHER 0.69 
+2021-05-06 23:45:30,360 logger_config INFO: 304047327 ZILUSD = 0.2496 target HIGHER 0.26 
+2021-05-06 23:45:40,912 logger_config INFO: 304047327 DOGEUSD = 0.5981 target HIGHER 0.69 
+2021-05-06 23:45:40,912 logger_config INFO: 304047327 ZILUSD = 0.2494 target HIGHER 0.26 
+2021-05-06 23:45:51,568 logger_config INFO: 304047327 DOGEUSD = 0.5991 target HIGHER 0.69 
+2021-05-06 23:45:51,569 logger_config INFO: 304047327 ZILUSD = 0.2492 target HIGHER 0.26 
+2021-05-06 23:46:02,125 logger_config INFO: 304047327 DOGEUSD = 0.5997 target HIGHER 0.69 
+2021-05-06 23:46:02,125 logger_config INFO: 304047327 ZILUSD = 0.2483 target HIGHER 0.26 
+2021-05-06 23:46:12,927 logger_config INFO: 304047327 DOGEUSD = 0.6002 target HIGHER 0.69 
+2021-05-06 23:46:12,928 logger_config INFO: 304047327 ZILUSD = 0.2481 target HIGHER 0.26 
+2021-05-06 23:46:23,418 logger_config INFO: 304047327 DOGEUSD = 0.6016 target HIGHER 0.69 
+2021-05-06 23:46:23,420 logger_config INFO: 304047327 ZILUSD = 0.2481 target HIGHER 0.26 
+2021-05-06 23:46:35,803 logger_config INFO: 304047327 DOGEUSD = 0.6019 target HIGHER 0.69 
+2021-05-06 23:46:35,803 logger_config INFO: 304047327 ZILUSD = 0.2477 target HIGHER 0.26 
+2021-05-06 23:46:46,399 logger_config INFO: 304047327 DOGEUSD = 0.6017 target HIGHER 0.69 
+2021-05-06 23:46:46,401 logger_config INFO: 304047327 ZILUSD = 0.2476 target HIGHER 0.26 
+2021-05-06 23:46:56,940 logger_config INFO: 304047327 DOGEUSD = 0.6013 target HIGHER 0.69 
+2021-05-06 23:46:56,956 logger_config INFO: 304047327 ZILUSD = 0.2476 target HIGHER 0.26 
+2021-05-06 23:47:07,501 logger_config INFO: 304047327 DOGEUSD = 0.6001 target HIGHER 0.69 
+2021-05-06 23:47:07,502 logger_config INFO: 304047327 ZILUSD = 0.2476 target HIGHER 0.26 
+2021-05-06 23:47:18,069 logger_config INFO: 304047327 DOGEUSD = 0.6002 target HIGHER 0.69 
+2021-05-06 23:47:18,070 logger_config INFO: 304047327 ZILUSD = 0.2475 target HIGHER 0.26 
+2021-05-06 23:47:28,606 logger_config INFO: 304047327 DOGEUSD = 0.5992 target HIGHER 0.69 
+2021-05-06 23:47:28,612 logger_config INFO: 304047327 ZILUSD = 0.2466 target HIGHER 0.26 
+2021-05-06 23:47:39,134 logger_config INFO: 304047327 DOGEUSD = 0.5989 target HIGHER 0.69 
+2021-05-06 23:47:39,145 logger_config INFO: 304047327 ZILUSD = 0.2467 target HIGHER 0.26 
+2021-05-06 23:47:50,845 logger_config INFO: 304047327 DOGEUSD = 0.5992 target HIGHER 0.69 
+2021-05-06 23:47:50,846 logger_config INFO: 304047327 ZILUSD = 0.2467 target HIGHER 0.26 
+2021-05-06 23:48:01,382 logger_config INFO: 304047327 DOGEUSD = 0.5983 target HIGHER 0.69 
+2021-05-06 23:48:01,383 logger_config INFO: 304047327 ZILUSD = 0.2473 target HIGHER 0.26 
+2021-05-06 23:48:11,926 logger_config INFO: 304047327 DOGEUSD = 0.5986 target HIGHER 0.69 
+2021-05-06 23:48:11,927 logger_config INFO: 304047327 ZILUSD = 0.2473 target HIGHER 0.26 
+2021-05-06 23:48:22,944 logger_config INFO: 304047327 DOGEUSD = 0.5975 target HIGHER 0.69 
+2021-05-06 23:48:22,945 logger_config INFO: 304047327 ZILUSD = 0.2473 target HIGHER 0.26 
+2021-05-06 23:48:33,541 logger_config INFO: 304047327 DOGEUSD = 0.596 target HIGHER 0.69 
+2021-05-06 23:48:33,543 logger_config INFO: 304047327 ZILUSD = 0.2473 target HIGHER 0.26 
+2021-05-06 23:48:44,189 logger_config INFO: 304047327 DOGEUSD = 0.5956 target HIGHER 0.69 
+2021-05-06 23:48:44,189 logger_config INFO: 304047327 ZILUSD = 0.2474 target HIGHER 0.26 
+2021-05-06 23:48:54,693 logger_config INFO: 304047327 DOGEUSD = 0.5955 target HIGHER 0.69 
+2021-05-06 23:48:54,693 logger_config INFO: 304047327 ZILUSD = 0.2475 target HIGHER 0.26 
+2021-05-06 23:49:05,252 logger_config INFO: 304047327 DOGEUSD = 0.595 target HIGHER 0.69 
+2021-05-06 23:49:05,256 logger_config INFO: 304047327 ZILUSD = 0.2477 target HIGHER 0.26 
+2021-05-06 23:49:15,816 logger_config INFO: 304047327 DOGEUSD = 0.5942 target HIGHER 0.69 
+2021-05-06 23:49:15,818 logger_config INFO: 304047327 ZILUSD = 0.2477 target HIGHER 0.26 
+2021-05-06 23:49:26,455 logger_config INFO: 304047327 DOGEUSD = 0.5946 target HIGHER 0.69 
+2021-05-06 23:49:26,456 logger_config INFO: 304047327 ZILUSD = 0.2481 target HIGHER 0.26 
+2021-05-06 23:49:37,090 logger_config INFO: 304047327 DOGEUSD = 0.5944 target HIGHER 0.69 
+2021-05-06 23:49:37,137 logger_config INFO: 304047327 ZILUSD = 0.2481 target HIGHER 0.26 
+2021-05-06 23:49:47,645 logger_config INFO: 304047327 DOGEUSD = 0.5931 target HIGHER 0.69 
+2021-05-06 23:49:47,645 logger_config INFO: 304047327 ZILUSD = 0.2482 target HIGHER 0.26 
+2021-05-06 23:50:00,981 logger_config INFO: 304047327 DOGEUSD = 0.5932 target HIGHER 0.69 
+2021-05-06 23:50:00,990 logger_config INFO: 304047327 ZILUSD = 0.2476 target HIGHER 0.26 
+2021-05-06 23:50:11,532 logger_config INFO: 304047327 DOGEUSD = 0.5945 target HIGHER 0.69 
+2021-05-06 23:50:11,534 logger_config INFO: 304047327 ZILUSD = 0.2475 target HIGHER 0.26 
+2021-05-06 23:50:22,114 logger_config INFO: 304047327 DOGEUSD = 0.5945 target HIGHER 0.69 
+2021-05-06 23:50:22,115 logger_config INFO: 304047327 ZILUSD = 0.2475 target HIGHER 0.26 
+2021-05-06 23:50:32,817 logger_config INFO: 304047327 DOGEUSD = 0.5937 target HIGHER 0.69 
+2021-05-06 23:50:32,829 logger_config INFO: 304047327 ZILUSD = 0.2476 target HIGHER 0.26 
+2021-05-06 23:50:43,408 logger_config INFO: 304047327 DOGEUSD = 0.5937 target HIGHER 0.69 
+2021-05-06 23:50:43,409 logger_config INFO: 304047327 ZILUSD = 0.2475 target HIGHER 0.26 
+2021-05-06 23:50:53,976 logger_config INFO: 304047327 DOGEUSD = 0.5932 target HIGHER 0.69 
+2021-05-06 23:50:53,979 logger_config INFO: 304047327 ZILUSD = 0.2475 target HIGHER 0.26 
+2021-05-06 23:51:04,537 logger_config INFO: 304047327 DOGEUSD = 0.5926 target HIGHER 0.69 
+2021-05-06 23:51:04,539 logger_config INFO: 304047327 ZILUSD = 0.2477 target HIGHER 0.26 
+2021-05-06 23:51:15,202 logger_config INFO: 304047327 DOGEUSD = 0.5923 target HIGHER 0.69 
+2021-05-06 23:51:15,203 logger_config INFO: 304047327 ZILUSD = 0.2477 target HIGHER 0.26 
+2021-05-06 23:51:25,764 logger_config INFO: 304047327 DOGEUSD = 0.5914 target HIGHER 0.69 
+2021-05-06 23:51:25,767 logger_config INFO: 304047327 ZILUSD = 0.2477 target HIGHER 0.26 
+2021-05-06 23:51:36,344 logger_config INFO: 304047327 DOGEUSD = 0.5916 target HIGHER 0.69 
+2021-05-06 23:51:36,346 logger_config INFO: 304047327 ZILUSD = 0.2481 target HIGHER 0.26 
+2021-05-06 23:51:46,947 logger_config INFO: 304047327 DOGEUSD = 0.5913 target HIGHER 0.69 
+2021-05-06 23:51:46,948 logger_config INFO: 304047327 ZILUSD = 0.248 target HIGHER 0.26 
+2021-05-06 23:51:57,520 logger_config INFO: 304047327 DOGEUSD = 0.5914 target HIGHER 0.69 
+2021-05-06 23:51:57,522 logger_config INFO: 304047327 ZILUSD = 0.2478 target HIGHER 0.26 
+2021-05-06 23:52:08,147 logger_config INFO: 304047327 DOGEUSD = 0.5904 target HIGHER 0.69 
+2021-05-06 23:52:08,149 logger_config INFO: 304047327 ZILUSD = 0.2478 target HIGHER 0.26 
+2021-05-06 23:52:18,728 logger_config INFO: 304047327 DOGEUSD = 0.5914 target HIGHER 0.69 
+2021-05-06 23:52:18,728 logger_config INFO: 304047327 ZILUSD = 0.2478 target HIGHER 0.26 
+2021-05-06 23:52:29,283 logger_config INFO: 304047327 DOGEUSD = 0.5925 target HIGHER 0.69 
+2021-05-06 23:52:29,284 logger_config INFO: 304047327 ZILUSD = 0.2476 target HIGHER 0.26 
+2021-05-06 23:52:39,906 logger_config INFO: 304047327 DOGEUSD = 0.5927 target HIGHER 0.69 
+2021-05-06 23:52:39,907 logger_config INFO: 304047327 ZILUSD = 0.2475 target HIGHER 0.26 
+2021-05-06 23:52:50,446 logger_config INFO: 304047327 DOGEUSD = 0.593 target HIGHER 0.69 
+2021-05-06 23:52:50,448 logger_config INFO: 304047327 ZILUSD = 0.2474 target HIGHER 0.26 
+2021-05-06 23:53:00,988 logger_config INFO: 304047327 DOGEUSD = 0.5924 target HIGHER 0.69 
+2021-05-06 23:53:00,989 logger_config INFO: 304047327 ZILUSD = 0.2472 target HIGHER 0.26 
+2021-05-06 23:53:11,504 logger_config INFO: 304047327 DOGEUSD = 0.5926 target HIGHER 0.69 
+2021-05-06 23:53:11,513 logger_config INFO: 304047327 ZILUSD = 0.2472 target HIGHER 0.26 
+2021-05-06 23:53:22,262 logger_config INFO: 304047327 DOGEUSD = 0.5928 target HIGHER 0.69 
+2021-05-06 23:53:22,265 logger_config INFO: 304047327 ZILUSD = 0.2471 target HIGHER 0.26 
+2021-05-06 23:53:34,407 logger_config INFO: 304047327 DOGEUSD = 0.5929 target HIGHER 0.69 
+2021-05-06 23:53:34,413 logger_config INFO: 304047327 ZILUSD = 0.2466 target HIGHER 0.26 
+2021-05-06 23:53:45,013 logger_config INFO: 304047327 DOGEUSD = 0.5931 target HIGHER 0.69 
+2021-05-06 23:53:45,014 logger_config INFO: 304047327 ZILUSD = 0.2465 target HIGHER 0.26 
+2021-05-06 23:53:55,586 logger_config INFO: 304047327 DOGEUSD = 0.5942 target HIGHER 0.69 
+2021-05-06 23:53:55,587 logger_config INFO: 304047327 ZILUSD = 0.2465 target HIGHER 0.26 
+2021-05-06 23:54:06,589 logger_config INFO: 304047327 DOGEUSD = 0.5947 target HIGHER 0.69 
+2021-05-06 23:54:06,590 logger_config INFO: 304047327 ZILUSD = 0.2464 target HIGHER 0.26 
+2021-05-06 23:54:17,211 logger_config INFO: 304047327 DOGEUSD = 0.5958 target HIGHER 0.69 
+2021-05-06 23:54:17,213 logger_config INFO: 304047327 ZILUSD = 0.2465 target HIGHER 0.26 
+2021-05-06 23:54:27,926 logger_config INFO: 304047327 DOGEUSD = 0.5972 target HIGHER 0.69 
+2021-05-06 23:54:27,927 logger_config INFO: 304047327 ZILUSD = 0.2464 target HIGHER 0.26 
+2021-05-06 23:54:38,492 logger_config INFO: 304047327 DOGEUSD = 0.5973 target HIGHER 0.69 
+2021-05-06 23:54:38,509 logger_config INFO: 304047327 ZILUSD = 0.2455 target HIGHER 0.26 
+2021-05-06 23:54:49,214 logger_config INFO: 304047327 DOGEUSD = 0.5972 target HIGHER 0.69 
+2021-05-06 23:54:49,237 logger_config INFO: 304047327 ZILUSD = 0.2455 target HIGHER 0.26 
+2021-05-06 23:54:59,922 logger_config INFO: 304047327 DOGEUSD = 0.5962 target HIGHER 0.69 
+2021-05-06 23:54:59,926 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:55:10,582 logger_config INFO: 304047327 DOGEUSD = 0.5957 target HIGHER 0.69 
+2021-05-06 23:55:10,584 logger_config INFO: 304047327 ZILUSD = 0.2446 target HIGHER 0.26 
+2021-05-06 23:55:21,203 logger_config INFO: 304047327 DOGEUSD = 0.5959 target HIGHER 0.69 
+2021-05-06 23:55:21,231 logger_config INFO: 304047327 ZILUSD = 0.2447 target HIGHER 0.26 
+2021-05-06 23:55:31,853 logger_config INFO: 304047327 DOGEUSD = 0.5959 target HIGHER 0.69 
+2021-05-06 23:55:31,855 logger_config INFO: 304047327 ZILUSD = 0.2453 target HIGHER 0.26 
+2021-05-06 23:55:42,445 logger_config INFO: 304047327 DOGEUSD = 0.5962 target HIGHER 0.69 
+2021-05-06 23:55:42,446 logger_config INFO: 304047327 ZILUSD = 0.2452 target HIGHER 0.26 
+2021-05-06 23:55:53,236 logger_config INFO: 304047327 DOGEUSD = 0.5957 target HIGHER 0.69 
+2021-05-06 23:55:53,237 logger_config INFO: 304047327 ZILUSD = 0.2452 target HIGHER 0.26 
+2021-05-06 23:56:04,865 logger_config INFO: 304047327 DOGEUSD = 0.5945 target HIGHER 0.69 
+2021-05-06 23:56:04,878 logger_config INFO: 304047327 ZILUSD = 0.2452 target HIGHER 0.26 
+2021-05-06 23:56:15,470 logger_config INFO: 304047327 DOGEUSD = 0.5939 target HIGHER 0.69 
+2021-05-06 23:56:15,470 logger_config INFO: 304047327 ZILUSD = 0.2455 target HIGHER 0.26 
+2021-05-06 23:56:26,561 logger_config INFO: 304047327 DOGEUSD = 0.5937 target HIGHER 0.69 
+2021-05-06 23:56:26,597 logger_config INFO: 304047327 ZILUSD = 0.2456 target HIGHER 0.26 
+2021-05-06 23:56:38,275 logger_config INFO: 304047327 DOGEUSD = 0.5925 target HIGHER 0.69 
+2021-05-06 23:56:38,370 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 23:56:49,283 logger_config INFO: 304047327 DOGEUSD = 0.5927 target HIGHER 0.69 
+2021-05-06 23:56:49,284 logger_config INFO: 304047327 ZILUSD = 0.2449 target HIGHER 0.26 
+2021-05-06 23:56:59,932 logger_config INFO: 304047327 DOGEUSD = 0.5929 target HIGHER 0.69 
+2021-05-06 23:56:59,933 logger_config INFO: 304047327 ZILUSD = 0.245 target HIGHER 0.26 
+2021-05-06 23:57:10,480 logger_config INFO: 304047327 DOGEUSD = 0.5928 target HIGHER 0.69 
+2021-05-06 23:57:10,482 logger_config INFO: 304047327 ZILUSD = 0.2451 target HIGHER 0.26 
+2021-05-06 23:57:21,073 logger_config INFO: 304047327 DOGEUSD = 0.5931 target HIGHER 0.69 
+2021-05-06 23:57:21,075 logger_config INFO: 304047327 ZILUSD = 0.2452 target HIGHER 0.26 
+2021-05-06 23:57:33,873 logger_config INFO: 304047327 DOGEUSD = 0.5941 target HIGHER 0.69 
+2021-05-06 23:57:33,873 logger_config INFO: 304047327 ZILUSD = 0.2453 target HIGHER 0.26 
