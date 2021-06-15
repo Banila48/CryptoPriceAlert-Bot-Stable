@@ -46,10 +46,13 @@ class CryptoCompare():
     @limits(calls=CALLS, period=RATE_LIMIT)   
     def get_price(self, fsyms, tsyms):
         url = f"{BASE_URL}/data/pricemulti?fsyms={','.join(fsyms)}&tsyms={','.join(tsyms)}"
-        r = self.session.get(url)
+        r = self.session.get(url, headers={"authorization": "Apikey "+config.CC_API_KEY})
         return r.json()
 
     #max count is 30
+    CALLS = 2
+    RATE_LIMIT = 60
+    @limits(calls=CALLS, period=RATE_LIMIT)  
     def get_top(self, tsym= "USD", count=100): #original is 40 top coins
         url = f"{BASE_URL}/data/top/mktcapfull?limit={count}&tsym={tsym}"
         r = self.session.get(url)
