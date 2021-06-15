@@ -1,5 +1,7 @@
 # CryptoPriceAlert-Bot
 
+Forked from https://github.com/alighazi/price_alert_bot
+
 **How To Set Up AWS Connection**
 
 [Tutorial](https://www.youtube.com/watch?v=MApTRT37B0k)
