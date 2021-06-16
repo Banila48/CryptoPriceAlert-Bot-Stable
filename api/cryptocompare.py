@@ -50,6 +50,7 @@ class CryptoCompare():
         return r.json()
 
     #max count is 30
+    # 2 calls per minute
     CALLS = 2
     RATE_LIMIT = 60
     @limits(calls=CALLS, period=RATE_LIMIT)  
