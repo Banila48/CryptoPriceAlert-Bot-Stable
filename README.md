@@ -8,13 +8,13 @@ Originally forked from https://github.com/alighazi/price_alert_bot
 
 ## Screenshots
 <p align="center">Notifications</p>
-![image](https://user-images.githubusercontent.com/64150298/126057735-9dc624e3-6bb1-4511-b50b-9739cb60835e.png)
+
 
 <p align="center">List of Followed Coins</p>
-![image](https://user-images.githubusercontent.com/64150298/126057738-06f6a763-40cf-40bf-aa30-9defb98284c9.png)
+
 
 <p align="center">Price of Coin</p>
-![image](https://user-images.githubusercontent.com/64150298/126057764-d7bb7795-4292-4e6d-b179-b0cc734b2768.png)
+
 
 
 ## Setting Up
