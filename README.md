@@ -1,16 +1,28 @@
 # CryptoPriceAlert-Bot
 
-Forked from https://github.com/alighazi/price_alert_bot
+Originally forked from https://github.com/alighazi/price_alert_bot
 
-**How To Set Up AWS Connection**
+## Function of Bot
+1) Get current price of Coins with its respective candle chart (various timeframes)
+2) Get alert notification when price of desired coin is above or below your target level
 
+## Screenshots
+**Notifications**
+![image](https://user-images.githubusercontent.com/64150298/126057735-9dc624e3-6bb1-4511-b50b-9739cb60835e.png)
+
+**List of Followed Coins**
+![image](https://user-images.githubusercontent.com/64150298/126057738-06f6a763-40cf-40bf-aa30-9defb98284c9.png)
+
+**Price of Coin**
+![image](https://user-images.githubusercontent.com/64150298/126057764-d7bb7795-4292-4e6d-b179-b0cc734b2768.png)
+
+
+## Setting Up
 [Tutorial](https://www.youtube.com/watch?v=MApTRT37B0k)
 
 **Important Note**
-Uptime: ~13 Days
-Downtime: ~ 2 Days
-After 2 days, the bot will autorecover and be able to make calls to the CryptoCompare API. 
-
+Uptime: ~24/7 
+Downtime: ~ 2 Days (sometimes due to high traffic of API)
 
 *Rough Steps*
 1) Create EC2 Instance using t2-Micro
@@ -22,24 +34,20 @@ After 2 days, the bot will autorecover and be able to make calls to the CryptoCo
 8) To reconnect to your Bot console, use "screen -r {window name that you created before}
 9) Ctrl + C to terminate the bot and update it (remember to git pull/push)
 
-**Function of Bot**
-1) Get current price of Coins with its respective candle chart (various timeframes)
-2) Get alert notification when price of desired coin is above or below your target level
+## Common Errors
 
-**Possible Errors**
-
-Error: Running py file
+1) Error: Running py file
 > python3 -m tg_bot_service (without .py extension)
 
-Error: Importing ParseMode from Telegram
+2) Error: Importing ParseMode from Telegram
 > pip install python-telegram-bot --upgrade
 
-Error: KeyError"Coin"
+3) Error: KeyError"Coin"
 
 This is due to hitting the Rate Limit of CryptoCompare API. 
 > Add throttle function to before each API function to reduce the frequency of calls. I use this [ratelimit](https://pypi.org/project/ratelimit/) library
 
-Error: pip3 module not found
+4) Error: pip3 module not found
 
 This happens if you terminate your EC2 instance and relaunch a new server. You need to re-setup your ubuntu installation.
 
@@ -57,7 +65,7 @@ This happens if you terminate your EC2 instance and relaunch a new server. You n
 > 
 > python3 -m tg_bot_service
 
-**Putty Shotcuts**
+## Putty Shotcuts
 1) Ctrl + A + D (to detach screen)
 2) screen -list (to see all sessions)
 3) screen -dr SCREENID (to reattached screen)
