@@ -8,7 +8,7 @@ Originally forked from https://github.com/alighazi/price_alert_bot
 
 ## Screenshots
 <p align="center">Notifications</p>
-<p><img src="notifactions.png"/></p>
+<p><img src="notification.png" id="alerts" /></p>
 
 <p align="center">List of Followed Coins</p>
 
