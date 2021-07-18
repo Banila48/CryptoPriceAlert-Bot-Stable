@@ -11,10 +11,10 @@ Originally forked from https://github.com/alighazi/price_alert_bot
 <p><img src="notification.png" id="alerts" /></p>
 
 <p align="center">List of Followed Coins</p>
-
+<p><img src="tracker.png" id="tracker" /></p>
 
 <p align="center">Price of Coin</p>
-
+<p><img src="chart.png" id="price" /></p>
 
 
 ## Setting Up
